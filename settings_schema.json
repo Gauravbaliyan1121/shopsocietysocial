@@ -1,0 +1,3098 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Prestige",
+    "theme_author": "Maestrooo",
+    "theme_version": "4.0.3",
+    "theme_documentation_url": "http:\/\/support.maestrooo.com\/",
+    "theme_support_url": "https:\/\/support.maestrooo.com\/article\/203-contact-us"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "General"
+      },
+      {
+        "type": "color",
+        "id": "heading_color",
+        "label": "Heading",
+        "default": "#1c1b1b"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Body text",
+        "default": "#1c1b1b"
+      },
+      {
+        "type": "color",
+        "id": "text_light_color",
+        "label": "Body light text",
+        "default": "#6a6a6a"
+      },
+      {
+        "type": "color",
+        "id": "link_color",
+        "label": "Link color",
+        "default": "#6a6a6a"
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background",
+        "default": "#eaeaea"
+      },
+      {
+        "type": "color",
+        "id": "light_background",
+        "label": "Light background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "product_on_sale_color",
+        "label": "On sale accent",
+        "default": "#f94c43"
+      },
+      {
+        "type": "header",
+        "content": "Buttons"
+      },
+      {
+        "type": "color",
+        "id": "button_background",
+        "label": "Background",
+        "default": "#1c1b1b"
+      },
+      {
+        "type": "color",
+        "id": "button_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "header",
+        "content": "Header"
+      },
+      {
+        "type": "color",
+        "id": "header_background",
+        "label": "Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "header_heading_color",
+        "label": "Heading and icons",
+        "default": "#1c1b1b"
+      },
+      {
+        "type": "color",
+        "id": "header_light_color",
+        "label": "Light text",
+        "default": "#6a6a6a"
+      },
+      {
+        "type": "header",
+        "content": "Footer"
+      },
+      {
+        "type": "color",
+        "id": "footer_background",
+        "label": "Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "footer_heading_color",
+        "label": "Heading",
+        "default": "#1c1b1b"
+      },
+      {
+        "type": "color",
+        "id": "footer_text_color",
+        "label": "Text",
+        "default": "#6a6a6a"
+      },
+      {
+        "type": "header",
+        "content": "Sidebar navigation"
+      },
+      {
+        "type": "color",
+        "id": "navigation_background",
+        "label": "Background",
+        "default": "#1c1b1b"
+      },
+      {
+        "type": "color",
+        "id": "navigation_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "header",
+        "content": "Newsletter popup"
+      },
+      {
+        "type": "color",
+        "id": "newsletter_popup_background",
+        "label": "Background",
+        "default": "#1c1b1b"
+      },
+      {
+        "type": "color",
+        "id": "newsletter_popup_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "header",
+        "content": "Secondary elements",
+        "info": "This is used in modals and other secondary elements."
+      },
+      {
+        "type": "color",
+        "id": "secondary_elements_background",
+        "label": "Background",
+        "default": "#1c1b1b"
+      },
+      {
+        "type": "color",
+        "id": "secondary_elements_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Headings"
+      },
+      {
+        "type": "font_picker",
+        "id": "heading_font",
+        "label": "Font",
+        "default": "helvetica_n4"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "label": "Size",
+        "info": "All headings (small and large) will be adjusted.",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "normal",
+            "label": "Normal"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "small"
+      },
+      {
+        "type": "checkbox",
+        "id": "uppercase_heading",
+        "label": "Display headings in uppercase",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Body text"
+      },
+      {
+        "type": "font_picker",
+        "id": "text_font",
+        "label": "Font",
+        "default": "helvetica_n4"
+      },
+      {
+        "type": "range",
+        "id": "base_text_font_size",
+        "label": "Base size",
+        "min": 13,
+        "max": 17,
+        "unit": "px",
+        "default": 14
+      }
+    ]
+  },
+  {
+    "name": "Currency conversion",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "currency_conversion_enabled",
+        "label": "Enable currency conversion",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "currency_conversion_round_amounts",
+        "label": "Round converted amounts",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "currency_conversion_supported_currencies",
+        "label": "Supported currencies",
+        "info": "List of currencies to display. You must separate each currencies by an empty space, and use the ISO 4217 3-letter code. Example: USD CAD EUR. All the possible values are [listed here](http:\/\/bit.ly\/1C4cZ3w).",
+        "default": "USD CAD EUR GBP"
+      },
+      {
+        "type": "select",
+        "id": "currency_conversion_money_format",
+        "label": "Money format",
+        "options": [
+          {
+            "value": "money_format",
+            "label": "Money ($10)"
+          },
+          {
+            "value": "money_with_currency_format",
+            "label": "Money with currency ($10 USD)"
+          }
+        ],
+        "default": "money_format"
+      }
+    ]
+  },
+  {
+    "name": "Animation",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_page_transition",
+        "label": "Show page transition",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_button_transition",
+        "label": "Show button transition",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_image_zooming",
+        "label": "Show image zoom effect",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_element_staggering",
+        "label": "Reveal elements one by one",
+        "info": "This setting displays blog post and product grid element one after the other.",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "Search",
+    "settings": [
+      {
+        "type": "select",
+        "id": "search_mode",
+        "label": "Search only...",
+        "options": [
+          {
+            "value": "product",
+            "label": "Products only"
+          },
+          {
+            "value": "product,page",
+            "label": "Products and pages"
+          },
+          {
+            "value": "product,article",
+            "label": "Products and articles"
+          },
+          {
+            "value": "product,article,page",
+            "label": "Products, articles and pages"
+          }
+        ],
+        "default": "product,article"
+      }
+    ]
+  },
+  {
+    "name": "Products grid",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Grid"
+      },
+      {
+        "type": "checkbox",
+        "id": "product_show_price_on_hover",
+        "label": "Show price on hover",
+        "info": "Prices will always be visible on touch devices.",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "product_show_secondary_image",
+        "label": "Show secondary image on hover",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "product_info_alignment",
+        "label": "Product info alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "select",
+        "id": "product_image_size",
+        "label": "Product image size",
+        "options": [
+          {
+            "value": "natural",
+            "label": "Natural"
+          },
+          {
+            "value": "short",
+            "label": "Short (4:3)"
+          },
+          {
+            "value": "square",
+            "label": "Square (1:1)"
+          },
+          {
+            "value": "tall",
+            "label": "Tall (2:3)"
+          }
+        ],
+        "default": "natural"
+      },
+      {
+        "type": "select",
+        "id": "product_list_horizontal_spacing",
+        "label": "Horizontal spacing",
+        "options": [
+          {
+            "value": "extra_small",
+            "label": "Extra small"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "extra_large",
+            "label": "Extra large"
+          }
+        ],
+        "default": "medium"
+      },
+      {
+        "type": "select",
+        "id": "product_list_vertical_spacing",
+        "label": "Vertical spacing",
+        "options": [
+          {
+            "value": "extra_small",
+            "label": "Extra small"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "extra_large",
+            "label": "Extra large"
+          }
+        ],
+        "default": "medium"
+      }
+    ]
+  },
+  {
+    "name": "Cart",
+    "settings": [
+      {
+        "type": "select",
+        "id": "cart_type",
+        "label": "Cart type",
+        "options": [
+          {
+            "value": "drawer",
+            "label": "Drawer"
+          },
+          {
+            "value": "page",
+            "label": "Page"
+          }
+        ],
+        "default": "drawer"
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_enable_notes",
+        "label": "Enable order notes",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_show_free_shipping_threshold",
+        "label": "Show free shipping minimum amount",
+        "info": "Make sure that you have properly configured your [shipping rates](\/admin\/settings\/shipping).",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "cart_free_shipping_threshold",
+        "label": "Free shipping minimum amount",
+        "info": "Only write a number, no letters",
+        "default": "50"
+      }
+    ]
+  },
+  {
+    "name": "Social media",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "share_image",
+        "label": "Share image",
+        "info": "This image is used when you share pages such as home page. For product, collection or article pages, the featured image will be used instead."
+      },
+      {
+        "type": "header",
+        "content": "Accounts"
+      },
+      {
+        "type": "text",
+        "id": "social_facebook",
+        "info": "https:\/\/www.facebook.com\/shopify",
+        "label": "Facebook"
+      },
+      {
+        "type": "text",
+        "id": "social_twitter",
+        "info": "https:\/\/twitter.com\/shopify",
+        "label": "Twitter"
+      },
+      {
+        "type": "text",
+        "id": "social_pinterest",
+        "info": "https:\/\/www.pinterest.com\/shopify",
+        "label": "Pinterest"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram",
+        "info": "https:\/\/instagram.com\/shopify",
+        "label": "Instagram"
+      },
+      {
+        "type": "text",
+        "id": "social_vimeo",
+        "info": "https:\/\/vimeo.com\/shopify",
+        "label": "Vimeo"
+      },
+      {
+        "type": "text",
+        "id": "social_tumblr",
+        "info": "https:\/\/shopify.tumblr.com",
+        "label": "Tumblr"
+      },
+      {
+        "type": "text",
+        "id": "social_youtube",
+        "info": "https:\/\/www.youtube.com\/user\/shopify",
+        "label": "YouTube"
+      },
+      {
+        "type": "text",
+        "id": "social_linkedin",
+        "info": "https:\/\/linkedin.com\/in\/shopify",
+        "label": "LinkedIn"
+      },
+      {
+        "type": "text",
+        "id": "social_snapchat",
+        "info": "https:\/\/snapchat.com\/add\/shopify",
+        "label": "Snapchat"
+      },
+      {
+        "type": "text",
+        "id": "social_fancy",
+        "info": "https:\/\/fancy.com\/Shopify",
+        "label": "Fancy"
+      }
+    ]
+  },
+  {
+    "name": "Color Variants",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Color Variants"
+      },
+      {
+        "type": "color",
+        "id": "color1",
+        "label": "Variant 1"
+      },
+      {
+        "type": "text",
+        "id": "colorname1",
+        "label": "Variant Name 1"
+      },
+      {
+        "type": "color",
+        "id": "color2",
+        "label": "Variant 2"
+      },
+      {
+        "type": "text",
+        "id": "colorname2",
+        "label": "Variant Name 2"
+      },
+      {
+        "type": "color",
+        "id": "color3",
+        "label": "Variant 3"
+      },
+      {
+        "type": "text",
+        "id": "colorname3",
+        "label": "Variant Name 3"
+      },
+      {
+        "type": "color",
+        "id": "color4",
+        "label": "Variant 4"
+      },
+      {
+        "type": "text",
+        "id": "colorname4",
+        "label": "Variant Name 4"
+      },
+      {
+        "type": "color",
+        "id": "color5",
+        "label": "Variant 5"
+      },
+      {
+        "type": "text",
+        "id": "colorname5",
+        "label": "Variant Name 5"
+      },
+      {
+        "type": "color",
+        "id": "color6",
+        "label": "Variant 6"
+      },
+      {
+        "type": "text",
+        "id": "colorname6",
+        "label": "Variant Name 6"
+      },
+      {
+        "type": "color",
+        "id": "color7",
+        "label": "Variant 7"
+      },
+      {
+        "type": "text",
+        "id": "colorname7",
+        "label": "Variant Name 7"
+      },
+      {
+        "type": "color",
+        "id": "color8",
+        "label": "Variant 8"
+      },
+      {
+        "type": "text",
+        "id": "colorname8",
+        "label": "Variant Name 8"
+      },
+      {
+        "type": "color",
+        "id": "color9",
+        "label": "Variant 9"
+      },
+      {
+        "type": "text",
+        "id": "colorname9",
+        "label": "Variant Name 9"
+      },
+      {
+        "type": "color",
+        "id": "color10",
+        "label": "Variant 10"
+      },
+      {
+        "type": "text",
+        "id": "colorname10",
+        "label": "Variant Name 10"
+      },
+      {
+        "type": "color",
+        "id": "color11",
+        "label": "Variant 11"
+      },
+      {
+        "type": "text",
+        "id": "colorname11",
+        "label": "Variant Name 11"
+      },
+      {
+        "type": "color",
+        "id": "color12",
+        "label": "Variant 12"
+      },
+      {
+        "type": "text",
+        "id": "colorname12",
+        "label": "Variant Name 12"
+      },
+      {
+        "type": "color",
+        "id": "color13",
+        "label": "Variant 13"
+      },
+      {
+        "type": "text",
+        "id": "colorname13",
+        "label": "Variant Name 13"
+      },
+      {
+        "type": "color",
+        "id": "color14",
+        "label": "Variant 14"
+      },
+      {
+        "type": "text",
+        "id": "colorname14",
+        "label": "Variant Name 14"
+      },
+      {
+        "type": "color",
+        "id": "color15",
+        "label": "Variant 15"
+      },
+      {
+        "type": "text",
+        "id": "colorname15",
+        "label": "Variant Name 15"
+      }
+    ]
+  },
+  {
+    "name": "Color Option",
+    "settings": [
+      {
+        "type": "text",
+        "id": "op_color_1",
+        "label": "color name 1"
+      },
+      {
+        "type": "text",
+        "id": "code_color_1",
+        "label": "color code 1"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_1",
+        "label": "color text 1"
+      },
+      {
+        "type": "color",
+        "id": "color_code_1",
+        "label": "color color 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_1",
+        "label": "color name 1"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_1",
+        "label": "product name 1",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_2",
+        "label": "color name 2"
+      },
+      {
+        "type": "text",
+        "id": "code_color_2",
+        "label": "color code 2"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_2",
+        "label": "color text 2"
+      },
+      {
+        "type": "color",
+        "id": "color_code_2",
+        "label": "color color 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_2",
+        "label": "color name 2"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_2",
+        "label": "product name 2",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_3",
+        "label": "color name 3"
+      },
+      {
+        "type": "text",
+        "id": "code_color_3",
+        "label": "color code 3"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_3",
+        "label": "color text 3"
+      },
+      {
+        "type": "color",
+        "id": "color_code_3",
+        "label": "color color 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_3",
+        "label": "color name 3"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_3",
+        "label": "product name 3",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_4",
+        "label": "color name 4"
+      },
+      {
+        "type": "text",
+        "id": "code_color_4",
+        "label": "color code 4"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_4",
+        "label": "color text 4"
+      },
+      {
+        "type": "color",
+        "id": "color_code_4",
+        "label": "color color 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_4",
+        "label": "color name 4"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_4",
+        "label": "product name 4",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_5",
+        "label": "color name 5"
+      },
+      {
+        "type": "text",
+        "id": "code_color_5",
+        "label": "color code 5"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_5",
+        "label": "color text 5"
+      },
+      {
+        "type": "color",
+        "id": "color_code_5",
+        "label": "color color 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_5",
+        "label": "color name 5"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_5",
+        "label": "product name 5",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_6",
+        "label": "color name 6"
+      },
+      {
+        "type": "text",
+        "id": "code_color_6",
+        "label": "color code 6"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_6",
+        "label": "color text 6"
+      },
+      {
+        "type": "color",
+        "id": "color_code_6",
+        "label": "color color 6"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_6",
+        "label": "color name 6"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_6",
+        "label": "product name 6",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_7",
+        "label": "color name 7"
+      },
+      {
+        "type": "text",
+        "id": "code_color_7",
+        "label": "color code 7"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_7",
+        "label": "color text 7"
+      },
+      {
+        "type": "color",
+        "id": "color_code_7",
+        "label": "color color 7"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_7",
+        "label": "color name 7"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_7",
+        "label": "product name 7",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_8",
+        "label": "color name 8"
+      },
+      {
+        "type": "text",
+        "id": "code_color_8",
+        "label": "color code 8"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_8",
+        "label": "color text 8"
+      },
+      {
+        "type": "color",
+        "id": "color_code_8",
+        "label": "color color 8"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_8",
+        "label": "color name 8"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_8",
+        "label": "product name 8",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_9",
+        "label": "color name 9"
+      },
+      {
+        "type": "text",
+        "id": "code_color_9",
+        "label": "color code 9"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_9",
+        "label": "color text 9"
+      },
+      {
+        "type": "color",
+        "id": "color_code_9",
+        "label": "color color 9"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_9",
+        "label": "color name 9"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_9",
+        "label": "product name 9",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_10",
+        "label": "color name 10"
+      },
+      {
+        "type": "text",
+        "id": "code_color_10",
+        "label": "color code 10"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_10",
+        "label": "color text 10"
+      },
+      {
+        "type": "color",
+        "id": "color_code_10",
+        "label": "color color 10"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_10",
+        "label": "color name 10"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_10",
+        "label": "product name 10",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_11",
+        "label": "color name 11"
+      },
+      {
+        "type": "text",
+        "id": "code_color_11",
+        "label": "color code 11"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_11",
+        "label": "color text 11"
+      },
+      {
+        "type": "color",
+        "id": "color_code_11",
+        "label": "color color 11"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_11",
+        "label": "color name 11"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_11",
+        "label": "product name 11",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_12",
+        "label": "color name 12"
+      },
+      {
+        "type": "text",
+        "id": "code_color_12",
+        "label": "color code 12"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_12",
+        "label": "color text 12"
+      },
+      {
+        "type": "color",
+        "id": "color_code_12",
+        "label": "color color 12"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_12",
+        "label": "color name 12"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_12",
+        "label": "product name 12",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_13",
+        "label": "color name 13"
+      },
+      {
+        "type": "text",
+        "id": "code_color_13",
+        "label": "color code 13"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_13",
+        "label": "color text 13"
+      },
+      {
+        "type": "color",
+        "id": "color_code_13",
+        "label": "color color 13"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_13",
+        "label": "color name 13"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_13",
+        "label": "product name 13",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_14",
+        "label": "color name 14"
+      },
+      {
+        "type": "text",
+        "id": "code_color_14",
+        "label": "color code 14"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_14",
+        "label": "color text 14"
+      },
+      {
+        "type": "color",
+        "id": "color_code_14",
+        "label": "color color 14"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_14",
+        "label": "color name 14"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_14",
+        "label": "product name 14",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_15",
+        "label": "color name 15"
+      },
+      {
+        "type": "text",
+        "id": "code_color_15",
+        "label": "color code 15"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_15",
+        "label": "color text 15"
+      },
+      {
+        "type": "color",
+        "id": "color_code_15",
+        "label": "color color 15"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_15",
+        "label": "color name 15"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_15",
+        "label": "product name 15",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_16",
+        "label": "color name 16"
+      },
+      {
+        "type": "text",
+        "id": "code_color_16",
+        "label": "color code 16"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_16",
+        "label": "color text 16"
+      },
+      {
+        "type": "color",
+        "id": "color_code_16",
+        "label": "color color 16"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_16",
+        "label": "color name 16"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_16",
+        "label": "product name 16",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_17",
+        "label": "color name 17"
+      },
+      {
+        "type": "text",
+        "id": "code_color_17",
+        "label": "color code 17"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_17",
+        "label": "color text 17"
+      },
+      {
+        "type": "color",
+        "id": "color_code_17",
+        "label": "color color 17"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_17",
+        "label": "color name 17"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_17",
+        "label": "product name 17",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_18",
+        "label": "color name 18"
+      },
+      {
+        "type": "text",
+        "id": "code_color_18",
+        "label": "color code 18"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_18",
+        "label": "color text 18"
+      },
+      {
+        "type": "color",
+        "id": "color_code_18",
+        "label": "color color 18"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_18",
+        "label": "color name 18"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_18",
+        "label": "product name 18",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_19",
+        "label": "color name 19"
+      },
+      {
+        "type": "text",
+        "id": "code_color_19",
+        "label": "color code 19"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_19",
+        "label": "color text 19"
+      },
+      {
+        "type": "color",
+        "id": "color_code_19",
+        "label": "color color 19"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_19",
+        "label": "color name 19"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_19",
+        "label": "product name 19",
+        "info": "product name like product name1 | product name 2"
+      },
+      {
+        "type": "text",
+        "id": "op_color_20",
+        "label": "color name 20"
+      },
+      {
+        "type": "text",
+        "id": "code_color_20",
+        "label": "color code 20"
+      },
+      {
+        "type": "text",
+        "id": "txt_color_20",
+        "label": "color text 20"
+      },
+      {
+        "type": "color",
+        "id": "color_code_20",
+        "label": "color color 20"
+      },
+      {
+        "type": "image_picker",
+        "id": "color_img_20",
+        "label": "color name 20"
+      },
+      {
+        "type": "html",
+        "id": "remove_product_20",
+        "label": "product name 20",
+        "info": "product name like product name1 | product name 2"
+      }
+    ]
+  },
+  {
+    "name": "Product fabric Grade A",
+    "settings": [
+      {
+        "type": "text",
+        "id": "a_name_1",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "a_code_1",
+        "label": "code 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_1",
+        "label": "image 1"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_1",
+        "label": "text 1"
+      },
+      {
+        "type": "text",
+        "id": "a_name_2",
+        "label": "Name 2"
+      },
+      {
+        "type": "text",
+        "id": "a_code_2",
+        "label": "code 21"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_2",
+        "label": "image 21"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_2",
+        "label": "text 2"
+      },
+      {
+        "type": "text",
+        "id": "a_name_3",
+        "label": "Name 3"
+      },
+      {
+        "type": "text",
+        "id": "a_code_3",
+        "label": "code 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_3",
+        "label": "image 3"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_3",
+        "label": "text 3"
+      },
+      {
+        "type": "text",
+        "id": "a_name_4",
+        "label": "Name 4"
+      },
+      {
+        "type": "text",
+        "id": "a_code_4",
+        "label": "code 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_4",
+        "label": "image 4"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_4",
+        "label": "text 4"
+      },
+      {
+        "type": "text",
+        "id": "a_name_5",
+        "label": "Name 5"
+      },
+      {
+        "type": "text",
+        "id": "a_code_5",
+        "label": "code 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_5",
+        "label": "image 5"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_5",
+        "label": "text 5"
+      },
+      {
+        "type": "text",
+        "id": "a_name_6",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "a_code_6",
+        "label": "code 6"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_6",
+        "label": "image 6"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_6",
+        "label": "text 6"
+      },
+      {
+        "type": "text",
+        "id": "a_name_7",
+        "label": "Name 7"
+      },
+      {
+        "type": "text",
+        "id": "a_code_7",
+        "label": "code 7"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_7",
+        "label": "image 7"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_7",
+        "label": "text 7"
+      },
+      {
+        "type": "text",
+        "id": "a_name_8",
+        "label": "Name 8"
+      },
+      {
+        "type": "text",
+        "id": "a_code_8",
+        "label": "code 8"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_8",
+        "label": "image 8"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_8",
+        "label": "text 8"
+      },
+      {
+        "type": "text",
+        "id": "a_name_9",
+        "label": "Name 9"
+      },
+      {
+        "type": "text",
+        "id": "a_code_9",
+        "label": "code 9"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_9",
+        "label": "image 9"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_9",
+        "label": "text 9"
+      },
+      {
+        "type": "text",
+        "id": "a_name_10",
+        "label": "Name 10"
+      },
+      {
+        "type": "text",
+        "id": "a_code_10",
+        "label": "code 10"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_10",
+        "label": "image 10"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_10",
+        "label": "text 10"
+      },
+      {
+        "type": "text",
+        "id": "a_name_11",
+        "label": "Name 11"
+      },
+      {
+        "type": "text",
+        "id": "a_code_11",
+        "label": "code 11"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_11",
+        "label": "image 11"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_11",
+        "label": "text 11"
+      },
+      {
+        "type": "text",
+        "id": "a_name_12",
+        "label": "Name 12"
+      },
+      {
+        "type": "text",
+        "id": "a_code_12",
+        "label": "code 12"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_12",
+        "label": "image 12"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_12",
+        "label": "text 12"
+      },
+      {
+        "type": "text",
+        "id": "a_name_13",
+        "label": "Name 13"
+      },
+      {
+        "type": "text",
+        "id": "a_code_13",
+        "label": "code 13"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_13",
+        "label": "image 13"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_13",
+        "label": "text 13"
+      },
+      {
+        "type": "text",
+        "id": "a_name_14",
+        "label": "Name 14"
+      },
+      {
+        "type": "text",
+        "id": "a_code_14",
+        "label": "code 14"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_14",
+        "label": "image 14"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_14",
+        "label": "text 14"
+      },
+      {
+        "type": "text",
+        "id": "a_name_15",
+        "label": "Name 15"
+      },
+      {
+        "type": "text",
+        "id": "a_code_15",
+        "label": "code 15"
+      },
+      {
+        "type": "image_picker",
+        "id": "a_image_15",
+        "label": "image 15"
+      },
+      {
+        "type": "richtext",
+        "id": "a_txt_15",
+        "label": "text 15"
+      }
+    ]
+  },
+  {
+    "name": "Product fabric Grade B",
+    "settings": [
+      {
+        "type": "text",
+        "id": "b_name_1",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "b_code_1",
+        "label": "code 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_1",
+        "label": "image 1"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_1",
+        "label": "text 1"
+      },
+      {
+        "type": "text",
+        "id": "b_name_2",
+        "label": "Name 2"
+      },
+      {
+        "type": "text",
+        "id": "b_code_2",
+        "label": "code 21"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_2",
+        "label": "image 21"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_2",
+        "label": "text 2"
+      },
+      {
+        "type": "text",
+        "id": "b_name_3",
+        "label": "Name 3"
+      },
+      {
+        "type": "text",
+        "id": "b_code_3",
+        "label": "code 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_3",
+        "label": "image 3"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_3",
+        "label": "text 3"
+      },
+      {
+        "type": "text",
+        "id": "b_name_4",
+        "label": "Name 4"
+      },
+      {
+        "type": "text",
+        "id": "b_code_4",
+        "label": "code 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_4",
+        "label": "image 4"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_4",
+        "label": "text 4"
+      },
+      {
+        "type": "text",
+        "id": "b_name_5",
+        "label": "Name 5"
+      },
+      {
+        "type": "text",
+        "id": "b_code_5",
+        "label": "code 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_5",
+        "label": "image 5"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_5",
+        "label": "text 5"
+      },
+      {
+        "type": "text",
+        "id": "b_name_6",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "b_code_6",
+        "label": "code 6"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_6",
+        "label": "image 6"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_6",
+        "label": "text 6"
+      },
+      {
+        "type": "text",
+        "id": "b_name_7",
+        "label": "Name 7"
+      },
+      {
+        "type": "text",
+        "id": "b_code_7",
+        "label": "code 7"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_7",
+        "label": "image 7"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_7",
+        "label": "text 7"
+      },
+      {
+        "type": "text",
+        "id": "b_name_8",
+        "label": "Name 8"
+      },
+      {
+        "type": "text",
+        "id": "b_code_8",
+        "label": "code 8"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_8",
+        "label": "image 8"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_8",
+        "label": "text 8"
+      },
+      {
+        "type": "text",
+        "id": "b_name_9",
+        "label": "Name 9"
+      },
+      {
+        "type": "text",
+        "id": "b_code_9",
+        "label": "code 9"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_9",
+        "label": "image 9"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_9",
+        "label": "text 9"
+      },
+      {
+        "type": "text",
+        "id": "b_name_10",
+        "label": "Name 10"
+      },
+      {
+        "type": "text",
+        "id": "b_code_10",
+        "label": "code 10"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_10",
+        "label": "image 10"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_10",
+        "label": "text 10"
+      },
+      {
+        "type": "text",
+        "id": "b_name_11",
+        "label": "Name 11"
+      },
+      {
+        "type": "text",
+        "id": "b_code_11",
+        "label": "code 11"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_11",
+        "label": "image 11"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_11",
+        "label": "text 11"
+      },
+      {
+        "type": "text",
+        "id": "b_name_12",
+        "label": "Name 12"
+      },
+      {
+        "type": "text",
+        "id": "b_code_12",
+        "label": "code 12"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_12",
+        "label": "image 12"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_12",
+        "label": "text 12"
+      },
+      {
+        "type": "text",
+        "id": "b_name_13",
+        "label": "Name 13"
+      },
+      {
+        "type": "text",
+        "id": "b_code_13",
+        "label": "code 13"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_13",
+        "label": "image 13"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_13",
+        "label": "text 13"
+      },
+      {
+        "type": "text",
+        "id": "b_name_14",
+        "label": "Name 14"
+      },
+      {
+        "type": "text",
+        "id": "b_code_14",
+        "label": "code 14"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_14",
+        "label": "image 14"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_14",
+        "label": "text 14"
+      },
+      {
+        "type": "text",
+        "id": "b_name_15",
+        "label": "Name 15"
+      },
+      {
+        "type": "text",
+        "id": "b_code_15",
+        "label": "code 15"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_15",
+        "label": "image 15"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_15",
+        "label": "text 15"
+      },
+      {
+        "type": "text",
+        "id": "b_name_16",
+        "label": "Name 16"
+      },
+      {
+        "type": "text",
+        "id": "b_code_16",
+        "label": "code 16"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_16",
+        "label": "image 16"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_16",
+        "label": "text 16"
+      },
+      {
+        "type": "text",
+        "id": "b_name_17",
+        "label": "Name 17"
+      },
+      {
+        "type": "text",
+        "id": "b_code_17",
+        "label": "code 17"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_17",
+        "label": "image 17"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_17",
+        "label": "text 17"
+      },
+      {
+        "type": "text",
+        "id": "b_name_18",
+        "label": "Name 18"
+      },
+      {
+        "type": "text",
+        "id": "b_code_18",
+        "label": "code 18"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_18",
+        "label": "image 18"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_18",
+        "label": "text 18"
+      },
+      {
+        "type": "text",
+        "id": "b_name_19",
+        "label": "Name 19"
+      },
+      {
+        "type": "text",
+        "id": "b_code_19",
+        "label": "code 19"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_19",
+        "label": "image 19"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_19",
+        "label": "text 19"
+      },
+      {
+        "type": "text",
+        "id": "b_name_20",
+        "label": "Name 20"
+      },
+      {
+        "type": "text",
+        "id": "b_code_20",
+        "label": "code 20"
+      },
+      {
+        "type": "image_picker",
+        "id": "b_image_20",
+        "label": "image 20"
+      },
+      {
+        "type": "richtext",
+        "id": "b_txt_20",
+        "label": "text 20"
+      }
+    ]
+  },
+  {
+    "name": "Product fabric Grade c",
+    "settings": [
+      {
+        "type": "text",
+        "id": "c_name_1",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "c_code_1",
+        "label": "code 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_1",
+        "label": "image 1"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_1",
+        "label": "text 1"
+      },
+      {
+        "type": "text",
+        "id": "c_name_2",
+        "label": "Name 2"
+      },
+      {
+        "type": "text",
+        "id": "c_code_2",
+        "label": "code 21"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_2",
+        "label": "image 21"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_2",
+        "label": "text 2"
+      },
+      {
+        "type": "text",
+        "id": "c_name_3",
+        "label": "Name 3"
+      },
+      {
+        "type": "text",
+        "id": "c_code_3",
+        "label": "code 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_3",
+        "label": "image 3"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_3",
+        "label": "text 3"
+      },
+      {
+        "type": "text",
+        "id": "c_name_4",
+        "label": "Name 4"
+      },
+      {
+        "type": "text",
+        "id": "c_code_4",
+        "label": "code 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_4",
+        "label": "image 4"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_4",
+        "label": "text 4"
+      },
+      {
+        "type": "text",
+        "id": "c_name_5",
+        "label": "Name 5"
+      },
+      {
+        "type": "text",
+        "id": "c_code_5",
+        "label": "code 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_5",
+        "label": "image 5"
+      },
+      {
+        "type": "richtext",
+        "id": "cb_txt_5",
+        "label": "text 5"
+      },
+      {
+        "type": "text",
+        "id": "c_name_6",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "c_code_6",
+        "label": "code 6"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_6",
+        "label": "image 6"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_6",
+        "label": "text 6"
+      },
+      {
+        "type": "text",
+        "id": "c_name_7",
+        "label": "Name 7"
+      },
+      {
+        "type": "text",
+        "id": "c_code_7",
+        "label": "code 7"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_7",
+        "label": "image 7"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_7",
+        "label": "text 7"
+      },
+      {
+        "type": "text",
+        "id": "c_name_8",
+        "label": "Name 8"
+      },
+      {
+        "type": "text",
+        "id": "c_code_8",
+        "label": "code 8"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_8",
+        "label": "image 8"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_8",
+        "label": "text 8"
+      },
+      {
+        "type": "text",
+        "id": "c_name_9",
+        "label": "Name 9"
+      },
+      {
+        "type": "text",
+        "id": "c_code_9",
+        "label": "code 9"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_9",
+        "label": "image 9"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_9",
+        "label": "text 9"
+      },
+      {
+        "type": "text",
+        "id": "c_name_10",
+        "label": "Name 10"
+      },
+      {
+        "type": "text",
+        "id": "c_code_10",
+        "label": "code 10"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_10",
+        "label": "image 10"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_10",
+        "label": "text 10"
+      },
+      {
+        "type": "text",
+        "id": "c_name_11",
+        "label": "Name 11"
+      },
+      {
+        "type": "text",
+        "id": "c_code_11",
+        "label": "code 11"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_11",
+        "label": "image 11"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_11",
+        "label": "text 11"
+      },
+      {
+        "type": "text",
+        "id": "c_name_12",
+        "label": "Name 12"
+      },
+      {
+        "type": "text",
+        "id": "c_code_12",
+        "label": "code 12"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_12",
+        "label": "image 12"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_12",
+        "label": "text 12"
+      },
+      {
+        "type": "text",
+        "id": "c_name_13",
+        "label": "Name 13"
+      },
+      {
+        "type": "text",
+        "id": "c_code_13",
+        "label": "code 13"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_13",
+        "label": "image 13"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_13",
+        "label": "text 13"
+      },
+      {
+        "type": "text",
+        "id": "c_name_14",
+        "label": "Name 14"
+      },
+      {
+        "type": "text",
+        "id": "c_code_14",
+        "label": "code 14"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_14",
+        "label": "image 14"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_14",
+        "label": "text 14"
+      },
+      {
+        "type": "text",
+        "id": "c_name_15",
+        "label": "Name 15"
+      },
+      {
+        "type": "text",
+        "id": "c_code_15",
+        "label": "code 15"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_15",
+        "label": "image 15"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_15",
+        "label": "text 15"
+      },
+      {
+        "type": "text",
+        "id": "c_name_16",
+        "label": "Name 16"
+      },
+      {
+        "type": "text",
+        "id": "c_code_16",
+        "label": "code 16"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_16",
+        "label": "image 16"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_16",
+        "label": "text 16"
+      },
+      {
+        "type": "text",
+        "id": "c_name_17",
+        "label": "Name 17"
+      },
+      {
+        "type": "text",
+        "id": "c_code_17",
+        "label": "code 17"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_17",
+        "label": "image 17"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_17",
+        "label": "text 17"
+      },
+      {
+        "type": "text",
+        "id": "c_name_18",
+        "label": "Name 18"
+      },
+      {
+        "type": "text",
+        "id": "c_code_18",
+        "label": "code 18"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_18",
+        "label": "image 18"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_18",
+        "label": "text 18"
+      },
+      {
+        "type": "text",
+        "id": "c_name_19",
+        "label": "Name 19"
+      },
+      {
+        "type": "text",
+        "id": "c_code_19",
+        "label": "code 19"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_19",
+        "label": "image 19"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_19",
+        "label": "text 19"
+      },
+      {
+        "type": "text",
+        "id": "c_name_20",
+        "label": "Name 20"
+      },
+      {
+        "type": "text",
+        "id": "c_code_20",
+        "label": "code 20"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_20",
+        "label": "image 20"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_20",
+        "label": "text 20"
+      },
+      {
+        "type": "text",
+        "id": "c_name_21",
+        "label": "Name 21"
+      },
+      {
+        "type": "text",
+        "id": "c_code_21",
+        "label": "code 21"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_21",
+        "label": "image 21"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_21",
+        "label": "text 21"
+      },
+      {
+        "type": "text",
+        "id": "c_name_22",
+        "label": "Name 22"
+      },
+      {
+        "type": "text",
+        "id": "c_code_22",
+        "label": "code 22"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_22",
+        "label": "image 22"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_22",
+        "label": "text 22"
+      },
+      {
+        "type": "text",
+        "id": "c_name_23",
+        "label": "Name 23"
+      },
+      {
+        "type": "text",
+        "id": "c_code_23",
+        "label": "code 23"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_23",
+        "label": "image 23"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_23",
+        "label": "text 23"
+      },
+      {
+        "type": "text",
+        "id": "c_name_24",
+        "label": "Name 24"
+      },
+      {
+        "type": "text",
+        "id": "c_code_24",
+        "label": "code 24"
+      },
+      {
+        "type": "image_picker",
+        "id": "c_image_24",
+        "label": "image 24"
+      },
+      {
+        "type": "richtext",
+        "id": "c_txt_24",
+        "label": "text 24"
+      }
+    ]
+  },
+  {
+    "name": "Product fabric Grade H",
+    "settings": [
+      {
+        "type": "text",
+        "id": "h_name_1",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "h_code_1",
+        "label": "code 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "h_image_1",
+        "label": "image 1"
+      },
+      {
+        "type": "richtext",
+        "id": "h_txt_1",
+        "label": "text 1"
+      },
+      {
+        "type": "text",
+        "id": "h_name_2",
+        "label": "Name 2"
+      },
+      {
+        "type": "text",
+        "id": "h_code_2",
+        "label": "code 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "h_image_2",
+        "label": "image 2"
+      },
+      {
+        "type": "richtext",
+        "id": "h_txt_2",
+        "label": "text 2"
+      },
+      {
+        "type": "text",
+        "id": "h_name_3",
+        "label": "Name 3"
+      },
+      {
+        "type": "text",
+        "id": "h_code_3",
+        "label": "code 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "h_image_3",
+        "label": "image 3"
+      },
+      {
+        "type": "richtext",
+        "id": "h_txt_3",
+        "label": "text 3"
+      },
+      {
+        "type": "text",
+        "id": "h_name_4",
+        "label": "Name 4"
+      },
+      {
+        "type": "text",
+        "id": "h_code_4",
+        "label": "code 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "h_image_4",
+        "label": "image 4"
+      },
+      {
+        "type": "richtext",
+        "id": "h_txt_4",
+        "label": "text 4"
+      },
+      {
+        "type": "text",
+        "id": "h_name_5",
+        "label": "Name 5"
+      },
+      {
+        "type": "text",
+        "id": "h_code_5",
+        "label": "code 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "h_image_5",
+        "label": "image 5"
+      },
+      {
+        "type": "richtext",
+        "id": "h_txt_5",
+        "label": "text 5"
+      }
+    ]
+  },
+  {
+    "name": "Product fabric Grade custom",
+    "settings": [
+      {
+        "type": "text",
+        "id": "ct_name_1",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_1",
+        "label": "code 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_1",
+        "label": "image 1"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_1",
+        "label": "text 1"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_2",
+        "label": "Name 2"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_2",
+        "label": "code 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_2",
+        "label": "image 2"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_2",
+        "label": "text 2"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_3",
+        "label": "Name 3"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_3",
+        "label": "code 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_3",
+        "label": "image 3"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_3",
+        "label": "text 3"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_4",
+        "label": "Name 4"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_4",
+        "label": "code 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_4",
+        "label": "image 4"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_4",
+        "label": "text 4"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_5",
+        "label": "Name 5"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_5",
+        "label": "code 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_5",
+        "label": "image 5"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_5",
+        "label": "text 5"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_6",
+        "label": "Name 6"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_6",
+        "label": "code 6"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_6",
+        "label": "image 6"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_6",
+        "label": "text 6"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_7",
+        "label": "Name 7"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_7",
+        "label": "code 7"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_7",
+        "label": "image 7"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_7",
+        "label": "text 7"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_8",
+        "label": "Name 8"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_8",
+        "label": "code 8"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_8",
+        "label": "image 8"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_8",
+        "label": "text 8"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_9",
+        "label": "Name 9"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_9",
+        "label": "code 9"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_9",
+        "label": "image 9"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_9",
+        "label": "text 9"
+      },
+      {
+        "type": "text",
+        "id": "ct_name_10",
+        "label": "Name 10"
+      },
+      {
+        "type": "text",
+        "id": "ct_code_10",
+        "label": "code 10"
+      },
+      {
+        "type": "image_picker",
+        "id": "ct_image_10",
+        "label": "image 10"
+      },
+      {
+        "type": "richtext",
+        "id": "ct_txt_10",
+        "label": "text 10"
+      }
+    ]
+  },
+  {
+    "name": "Product Table",
+    "settings": [
+      {
+        "type": "text",
+        "id": "tb_name_1",
+        "label": "Name 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_1",
+        "label": "image 1"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_2",
+        "label": "Name 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_2",
+        "label": "image 2"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_3",
+        "label": "Name 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_3",
+        "label": "image 3"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_4",
+        "label": "Name 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_4",
+        "label": "image 4"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_5",
+        "label": "Name 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_5",
+        "label": "image 5"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_6",
+        "label": "Name 6"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_6",
+        "label": "image 6"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_7",
+        "label": "Name 7"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_7",
+        "label": "image 7"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_8",
+        "label": "Name 8"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_8",
+        "label": "image 8"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_9",
+        "label": "Name 9"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_9",
+        "label": "image 9"
+      },
+      {
+        "type": "text",
+        "id": "tb_name_10",
+        "label": "Name 10"
+      },
+      {
+        "type": "image_picker",
+        "id": "tb_code_10",
+        "label": "image 10"
+      }
+    ]
+  },
+  {
+    "name": "Product fabric Table",
+    "settings": [
+      {
+        "type": "text",
+        "id": "tf_name_1",
+        "label": "Name 1"
+      },
+      {
+        "type": "text",
+        "id": "tf_grade_1",
+        "label": "Grade 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "tf_code_1",
+        "label": "image 1"
+      },
+      {
+        "type": "text",
+        "id": "tf_name_2",
+        "label": "Name 2"
+      },
+      {
+        "type": "text",
+        "id": "tf_grade_2",
+        "label": "Grade 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "tf_code_2",
+        "label": "image 2"
+      },
+      {
+        "type": "text",
+        "id": "tf_name_3",
+        "label": "Name 3"
+      },
+      {
+        "type": "text",
+        "id": "tf_grade_3",
+        "label": "Grade 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "tf_code_3",
+        "label": "image 3"
+      },
+      {
+        "type": "text",
+        "id": "tf_name_4",
+        "label": "Name 4"
+      },
+      {
+        "type": "text",
+        "id": "tf_grade_4",
+        "label": "Grade 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "tf_code_4",
+        "label": "image 4"
+      },
+      {
+        "type": "text",
+        "id": "tf_name_5",
+        "label": "Name 5"
+      },
+      {
+        "type": "text",
+        "id": "tf_grade_5",
+        "label": "Grade 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "tf_code_5",
+        "label": "image 5"
+      },
+      {
+        "type": "text",
+        "id": "tf_name_6",
+        "label": "Name 6"
+      },
+      {
+        "type": "text",
+        "id": "tf_grade_6",
+        "label": "Grade 6"
+      },
+      {
+        "type": "image_picker",
+        "id": "tf_code_6",
+        "label": "image 6"
+      },
+      {
+        "type": "text",
+        "id": "tf_name_7",
+        "label": "Name 7"
+      },
+      {
+        "type": "text",
+        "id": "tf_grade_7",
+        "label": "Grade 7"
+      },
+      {
+        "type": "image_picker",
+        "id": "tf_code_7",
+        "label": "image 7"
+      },
+      {
+        "type": "text",
+        "id": "tf_name_8",
+        "label": "Name 8"
+      },
+      {
+        "type": "text",
+        "id": "tf_grade_8",
+        "label": "Grade 8"
+      },
+      {
+        "type": "image_picker",
+        "id": "tf_code_8",
+        "label": "image 8"
+      }
+    ]
+  },
+  {
+    "name": "Favicon",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Image",
+        "info": "32 x 32px .png recommended"
+      }
+    ]
+  }
+]
