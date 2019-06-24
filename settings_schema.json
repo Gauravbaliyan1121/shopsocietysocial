@@ -1,3098 +1,2699 @@
-[
-  {
-    "name": "theme_info",
-    "theme_name": "Prestige",
-    "theme_author": "Maestrooo",
-    "theme_version": "4.0.3",
-    "theme_documentation_url": "http:\/\/support.maestrooo.com\/",
-    "theme_support_url": "https:\/\/support.maestrooo.com\/article\/203-contact-us"
-  },
-  {
-    "name": "Colors",
-    "settings": [
-      {
+{
+  "current": {
+    "heading_color": "#0a0a0a",
+    "text_color": "#5c5c5c",
+    "text_light_color": "#939393",
+    "link_color": "#323232",
+    "background": "#ffffff",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#ec207a",
+    "button_background": "#ec207a",
+    "button_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_heading_color": "#030303",
+    "header_light_color": "#939393",
+    "footer_background": "#ffffff",
+    "footer_heading_color": "#5c5c5c",
+    "footer_text_color": "#939393",
+    "navigation_background": "#ffffff",
+    "navigation_text_color": "#5c5c5c",
+    "newsletter_popup_background": "#ffffff",
+    "newsletter_popup_text_color": "#1c1b1b",
+    "secondary_elements_background": "#5c5c5c",
+    "secondary_elements_text_color": "#ffffff",
+    "heading_font": "montserrat_n4",
+    "heading_size": "large",
+    "uppercase_heading": false,
+    "text_font": "montserrat_n3",
+    "base_text_font_size": 15,
+    "currency_conversion_enabled": false,
+    "currency_conversion_round_amounts": true,
+    "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+    "currency_conversion_money_format": "money_format",
+    "show_page_transition": true,
+    "show_button_transition": true,
+    "show_image_zooming": true,
+    "show_element_staggering": true,
+    "search_mode": "product,article",
+    "product_show_price_on_hover": true,
+    "product_show_secondary_image": true,
+    "product_info_alignment": "left",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "small",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "drawer",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "share_image": "",
+    "social_facebook": "https:\/\/www.facebook.com\/societysocial",
+    "social_twitter": "https:\/\/twitter.com\/societysocial",
+    "social_pinterest": "https:\/\/www.pinterest.com\/societysocial",
+    "social_instagram": "https:\/\/www.instagram.com\/societysocial",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "color1": "#fdfefe",
+    "colorname1": "Tape Trim",
+    "color2": "#40eaf8",
+    "colorname2": "Turquoise",
+    "color3": "#000b1a",
+    "colorname3": "Navy",
+    "color4": "#00c11a",
+    "colorname4": "Lime",
+    "color5": "#cddae7",
+    "colorname5": "Light Blue",
+    "color6": "#f90600",
+    "colorname6": "Clementine",
+    "color7": "#fd5eac",
+    "colorname7": "Bubble Gum",
+    "color8": "",
+    "colorname8": "",
+    "color9": "",
+    "colorname9": "",
+    "color10": "",
+    "colorname10": "",
+    "color11": "",
+    "colorname11": "",
+    "color12": "",
+    "colorname12": "",
+    "color13": "",
+    "colorname13": "",
+    "color14": "",
+    "colorname14": "",
+    "color15": "",
+    "colorname15": "",
+    "op_color_1": "Avocado",
+    "code_color_1": "Avocado",
+    "txt_color_1": "",
+    "color_code_1": "",
+    "color_img_1": "shopify:\/\/shop_images\/Avocado_f1a817d4-1b47-4b30-9d33-c72816346d06.jpg",
+    "remove_product_1": "",
+    "op_color_2": "Black",
+    "code_color_2": "Black",
+    "txt_color_2": "",
+    "color_code_2": "",
+    "color_img_2": "shopify:\/\/shop_images\/Black_191942db-7286-4525-ace2-4286810df044.jpg",
+    "remove_product_2": "",
+    "op_color_3": "Blue",
+    "code_color_3": "Blue",
+    "txt_color_3": "",
+    "color_code_3": "",
+    "color_img_3": "shopify:\/\/shop_images\/Blue_f1964f76-2394-417d-a86e-23dcfe5c177a.jpg",
+    "remove_product_3": "",
+    "op_color_4": "Coral",
+    "code_color_4": "Coral",
+    "txt_color_4": "",
+    "color_code_4": "",
+    "color_img_4": "shopify:\/\/shop_images\/Coral_d5cb9d22-dbd7-42de-935d-d6eaec8ee444.jpg",
+    "remove_product_4": "",
+    "op_color_5": "Emerald",
+    "code_color_5": "Emerald",
+    "txt_color_5": "",
+    "color_code_5": "",
+    "color_img_5": "shopify:\/\/shop_images\/Emerald_8cafd73f-80ce-4303-ba85-d1afc0f4d08d.jpg",
+    "remove_product_5": "",
+    "op_color_6": "French Blue",
+    "code_color_6": "French Blue",
+    "txt_color_6": "",
+    "color_code_6": "",
+    "color_img_6": "shopify:\/\/shop_images\/French_Blue_4adfb9a7-c0b8-4f03-ad73-7a2c6b993e65.jpg",
+    "remove_product_6": "",
+    "op_color_7": "Gold",
+    "code_color_7": "Gold",
+    "txt_color_7": "",
+    "color_code_7": "",
+    "color_img_7": "shopify:\/\/shop_images\/Gold.png",
+    "remove_product_7": "",
+    "op_color_8": "Hunter Green",
+    "code_color_8": "Hunter Green",
+    "txt_color_8": "",
+    "color_code_8": "",
+    "color_img_8": "shopify:\/\/shop_images\/Hunter_Green_2ab8153c-b4f4-439c-92d6-884e01e83645.jpg",
+    "remove_product_8": "",
+    "op_color_9": "Lavender",
+    "code_color_9": "Lavender",
+    "txt_color_9": "",
+    "color_code_9": "",
+    "color_img_9": "shopify:\/\/shop_images\/Lavender_054cb02e-be31-4424-913e-df9ff5a986b2.png",
+    "remove_product_9": "",
+    "op_color_10": "Lemon",
+    "code_color_10": "Lemon",
+    "txt_color_10": "",
+    "color_code_10": "",
+    "color_img_10": "shopify:\/\/shop_images\/Lemon_934d77e4-1743-4736-96f5-13f3a0f1fada.jpg",
+    "remove_product_10": "",
+    "op_color_11": "Navy",
+    "code_color_11": "Navy",
+    "txt_color_11": "",
+    "color_code_11": "",
+    "color_img_11": "shopify:\/\/shop_images\/Navy_91dc80ac-9da7-4fc4-a438-2a6bb1929b24.png",
+    "remove_product_11": "",
+    "op_color_12": "Orange",
+    "code_color_12": "Orange",
+    "txt_color_12": "",
+    "color_code_12": "",
+    "color_img_12": "shopify:\/\/shop_images\/Orange_0f8784ea-95b3-41d3-bf20-0faf800b471a.jpg",
+    "remove_product_12": "",
+    "op_color_13": "Orchid",
+    "code_color_13": "Orchid",
+    "txt_color_13": "",
+    "color_code_13": "",
+    "color_img_13": "shopify:\/\/shop_images\/Orchid_d5598857-84ca-4a5f-a95d-4d2bc794f28d.png",
+    "remove_product_13": "",
+    "op_color_14": "Pink",
+    "code_color_14": "Pink",
+    "txt_color_14": "",
+    "color_code_14": "",
+    "color_img_14": "shopify:\/\/shop_images\/Pink_75fb4af9-a86c-468f-b8e7-14f4a6087499.jpg",
+    "remove_product_14": "",
+    "op_color_15": "Red",
+    "code_color_15": "Red",
+    "txt_color_15": "",
+    "color_code_15": "",
+    "color_img_15": "shopify:\/\/shop_images\/Red_ab02a916-40fa-4993-90ef-8fc2309bd22e.jpg",
+    "remove_product_15": "",
+    "op_color_16": "Silver",
+    "code_color_16": "Silver",
+    "txt_color_16": "",
+    "color_code_16": "",
+    "color_img_16": "shopify:\/\/shop_images\/Silver.png",
+    "remove_product_16": "",
+    "op_color_17": "Turquoise",
+    "code_color_17": "Turquoise",
+    "txt_color_17": "",
+    "color_code_17": "",
+    "color_img_17": "shopify:\/\/shop_images\/Turquoise_78a69eaa-27ad-4e8c-8a1b-f08bd8c6b53b.jpg",
+    "remove_product_17": "",
+    "op_color_18": "White",
+    "code_color_18": "White",
+    "txt_color_18": "",
+    "color_code_18": "",
+    "color_img_18": "shopify:\/\/shop_images\/White_a5a2d1f9-0603-49fe-a3aa-00dea74960ba.jpg",
+    "remove_product_18": "",
+    "op_color_19": "White",
+    "code_color_19": "White",
+    "txt_color_19": "",
+    "color_code_19": "",
+    "color_img_19": "shopify:\/\/shop_images\/Yellow_1c5106e4-21f6-493c-ac4e-ae34b548f334.jpg",
+    "remove_product_19": "",
+    "op_color_20": "",
+    "code_color_20": "",
+    "txt_color_20": "",
+    "color_code_20": "",
+    "color_img_20": "",
+    "remove_product_20": "",
+    "a_name_1": "Sahara Midnight",
+    "a_code_1": "100% cotton, 10,000 double rubs, cleaning code: sw (professional cleaning recommended)",
+    "a_image_1": "shopify:\/\/shop_images\/sahara_midnight_66cbc47f-7a9e-4be6-a181-90c23804e1fa.jpg",
+    "a_txt_1": "",
+    "a_name_2": "Agave Azure Swatch",
+    "a_code_2": "85% cotton, 15% linen, 240,000 double rubs, cleaning code: s (dry clean only)",
+    "a_image_2": "shopify:\/\/shop_images\/Agave_Azure_b8b4b343-e99e-4ad2-bf86-6f738c89450a.jpg",
+    "a_txt_2": "",
+    "a_name_3": "Cream Linen",
+    "a_code_3": "85% polyester, 15% linen, 50,000 double rubs, cleaning code: ws (professional cleaning recommended)",
+    "a_image_3": "shopify:\/\/shop_images\/Cream_Linen_99a0db97-6267-44f4-a031-0d8dfcd02d73.jpg",
+    "a_txt_3": "",
+    "a_name_4": "Bindi Kelly",
+    "a_code_4": "100% cotton, 9,000 double rubs, cleaning code: s (dry clean only)",
+    "a_image_4": "shopify:\/\/shop_images\/Bindi_Kelly_8b712c75-dc2c-4165-baa9-5298897a9ba7.jpg",
+    "a_txt_4": "",
+    "a_name_5": "Sahara Mineral",
+    "a_code_5": "100% cotton, 10,000 double rubs, cleaning code: sw (professional cleaning recommended)",
+    "a_image_5": "shopify:\/\/shop_images\/sahara_mineral_15202cf7-3f91-4f37-b82c-724555cf6493.jpg",
+    "a_txt_5": "",
+    "a_name_6": "Sapphire Linen",
+    "a_code_6": "85% polyester, 15% linen, 50,000 double rubs, cleaning code: ws (professional cleaning recommended)",
+    "a_image_6": "shopify:\/\/shop_images\/Sapphire_Linen_951b5079-6ea9-4618-b9c7-71556caaefed.jpg",
+    "a_txt_6": "",
+    "a_name_7": "Heathered Linen Linen",
+    "a_code_7": "100& polyester, 50,000 double rubs, cleaning code: s (dry clean only)",
+    "a_image_7": "shopify:\/\/shop_images\/Heathered_Linen_Linen.jpg",
+    "a_txt_7": "",
+    "a_name_8": "Heathered Linen Air",
+    "a_code_8": "100& polyester, 50,000 double rubs, cleaning code: s (dry clean only)",
+    "a_image_8": "shopify:\/\/shop_images\/Heathered_Linen_Air.jpg",
+    "a_txt_8": "",
+    "a_name_9": "Heathered Linen Windchime",
+    "a_code_9": "100& polyester, 50,000 double rubs, cleaning code: s (dry clean only)",
+    "a_image_9": "shopify:\/\/shop_images\/Heathered_Linen_Windchime.jpg",
+    "a_txt_9": "",
+    "a_name_10": "100& polyester, 50,000 double rubs, cleaning code: s (dry clean only)",
+    "a_code_10": "100% cotton, 30,000 double rubs, cleaning code: s (dry clean only)",
+    "a_image_10": "shopify:\/\/shop_images\/Performance_Hot_Pink.jpg",
+    "a_txt_10": "",
+    "a_name_11": "Navy Twill",
+    "a_code_11": "100% cotton, 30,000 double rubs, cleaning code: s (dry clean only)",
+    "a_image_11": "shopify:\/\/shop_images\/Navy_Twill.jpg",
+    "a_txt_11": "",
+    "a_name_12": "Navy Velvet",
+    "a_code_12": "100% polyester, 51,000 double rubs, cleaning code: s (dry clean only)",
+    "a_image_12": "shopify:\/\/shop_images\/Navy_Velvet_41395477-ad0e-46f6-8898-fbd1a3ff74e1.jpg",
+    "a_txt_12": "",
+    "a_name_13": "100% polyester, 51,000 double rubs, cleaning code: s (dry clean only)",
+    "a_code_13": "100% polyester, 125,000 double rubs, cleaning code: sw (professional cleaning recommended)",
+    "a_image_13": "shopify:\/\/shop_images\/Cornflower_Chenille.jpg",
+    "a_txt_13": "",
+    "a_name_14": "100% polyester, 125,000 double rubs, cleaning code: sw (professional cleaning recommended)",
+    "a_code_14": "100% polyester, 60,000 double rubs, cleaning code: w (gently spot clean with upholstery cleaner)",
+    "a_image_14": "shopify:\/\/shop_images\/Navy_Chenille.jpg",
+    "a_txt_14": "",
+    "a_name_15": "",
+    "a_code_15": "",
+    "a_image_15": "",
+    "a_txt_15": "",
+    "b_name_1": "Performance Natural Linen",
+    "b_code_1": "Performance Natural Linen",
+    "b_image_1": "shopify:\/\/shop_images\/Performance_Chevron_Powder.jpg",
+    "b_txt_1": "",
+    "b_name_2": "Bahama Mama",
+    "b_code_2": "100% cotton, cleaning code: s (dry clean only)",
+    "b_image_2": "shopify:\/\/shop_images\/Bahama_Mama_d4e3f213-24a5-4fad-b3d7-62ef8d6f743f.jpg",
+    "b_txt_2": "",
+    "b_name_3": "Gingham Horizon",
+    "b_code_3": "100% cotton, 51,000 double rubs, cleaning code: s (dry clean only)",
+    "b_image_3": "shopify:\/\/shop_images\/Gingham_Horizon.jpg",
+    "b_txt_3": "",
+    "b_name_4": "Gingham Mineral",
+    "b_code_4": "100% cotton, 51,000 double rubs, cleaning code: s (dry clean only)",
+    "b_image_4": "shopify:\/\/shop_images\/Gingham_Mineral.jpg",
+    "b_txt_4": "",
+    "b_name_5": "Performance Velvet Pool",
+    "b_code_5": "crypton brand, 100% polyester, 30,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "b_image_5": "shopify:\/\/shop_images\/Performance_Velvet_Pool.jpg",
+    "b_txt_5": "",
+    "b_name_6": "Performance Velvet Lake",
+    "b_code_6": "crypton brand, 100% polyester, 30,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "b_image_6": "shopify:\/\/shop_images\/Performance_Velvet_Lake.jpg",
+    "b_txt_6": "",
+    "b_name_7": "Performance Velvet Cream",
+    "b_code_7": "crypton brand, 100% polyester, 30,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "b_image_7": "shopify:\/\/shop_images\/Perfomance_Velvet_Cream.jpg",
+    "b_txt_7": "",
+    "b_name_8": "Performance Slate Blue Linen",
+    "b_code_8": "crypton brand. 100% polyester, 30,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "b_image_8": "shopify:\/\/shop_images\/Performance_Slate_Blue.jpg",
+    "b_txt_8": "",
+    "b_name_9": "Performance Porcelain Linen",
+    "b_code_9": "crypton brand, 100% polyester, 30,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "b_image_9": "shopify:\/\/shop_images\/Performance_Porcelain_Linen.jpg",
+    "b_txt_9": "",
+    "b_name_10": "Gingham Silhouette",
+    "b_code_10": "Gingham Silhouette",
+    "b_image_10": "shopify:\/\/shop_images\/Gingham_Silhouette.jpg",
+    "b_txt_10": "",
+    "b_name_11": "Gingham Silhouette",
+    "b_code_11": "100% cotton, 51,000 double rubs, cleaning code: s (dry clean only)",
+    "b_image_11": "shopify:\/\/shop_images\/Gingham_Navy.jpg",
+    "b_txt_11": "",
+    "b_name_12": "Beverly Palm",
+    "b_code_12": "55% linen, 45% rayon, cleaning code: s (dry clean only)",
+    "b_image_12": "shopify:\/\/shop_images\/Beverly_Palm_b1358dec-66d2-4dba-bd07-dfc3ccee1700.jpg",
+    "b_txt_12": "",
+    "b_name_13": "Performance Hot Pink",
+    "b_code_13": "sunbrella brand, 100% solution dyed acrylic, 15,000 double rubs, pill resistant, clean with soap, bleach cleanable, liquid\/stain\/fade resistant, quick dry, anti-mildew, made in usa, eco-friendly, pfc free",
+    "b_image_13": "shopify:\/\/shop_images\/Performance_Hot_Pink.jpg",
+    "b_txt_13": "",
+    "b_name_14": "sunbrella brand, 100% solution dyed acrylic, 15,000 double rubs, pill resistant, clean with soap, bleach cleanable, liquid\/stain\/fade resistant, quick dry, anti-mildew, made in usa, eco-friendly, pfc free",
+    "b_code_14": "100% polyester, 50,000 double rubs, professional cleaning recommended",
+    "b_image_14": "shopify:\/\/shop_images\/Blush_Petal_Chenille.jpg",
+    "b_txt_14": "",
+    "b_name_15": "Performance Velvet Sterling",
+    "b_code_15": "Performance Velvet Sterling",
+    "b_image_15": "shopify:\/\/shop_images\/Performance_Velvet_Sterling.jpg",
+    "b_txt_15": "",
+    "b_name_16": "Performance Bouy Linen",
+    "b_code_16": "crypton brand. 100% polyester, 30,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "b_image_16": "shopify:\/\/shop_images\/Performance_Buoy_Linen.jpg",
+    "b_txt_16": "",
+    "b_name_17": "Performance Blush Linen",
+    "b_code_17": "inside out brand, 95.65% poly (uv), 4.35% olefin (uv), 30,000+ double rubs, pill resistant, clean with soap, bleach cleanable, liquid\/stain\/fade resistant, quick dry, anti-mildew, made in usa, eco-friendly, pfc free",
+    "b_image_17": "shopify:\/\/shop_images\/Performance_Blush_Linen.jpg",
+    "b_txt_17": "",
+    "b_name_18": "",
+    "b_code_18": "",
+    "b_image_18": "",
+    "b_txt_18": "",
+    "b_name_19": "",
+    "b_code_19": "",
+    "b_image_19": "",
+    "b_txt_19": "",
+    "b_name_20": "",
+    "b_code_20": "",
+    "b_image_20": "",
+    "b_txt_20": "",
+    "c_name_1": "Performance Spots Navy",
+    "c_code_1": "sunbrella brand, 100% solution dyed acrylic, 9,000 double rubs, pill resistant, clean with soap, bleach cleanable, liquid\/stain\/fade resistant, quick dry, anti-mildew, made in usa, eco-friendly, pfc free",
+    "c_image_1": "shopify:\/\/shop_images\/Performance_Spots_Navy.jpg",
+    "c_txt_1": "",
+    "c_name_2": "Performance Hydrangea Blue",
+    "c_code_2": "fibreguard brand, 100% polyester, 90,000 double rubs, fibreguard stainfree technology, spill-proof, child\/pet friendly",
+    "c_image_2": "shopify:\/\/shop_images\/Performance_Hydrangea_Blue.jpg",
+    "c_txt_2": "",
+    "c_name_3": "fibreguard brand, 100% polyester, 90,000 double rubs, fibreguard stainfree technology, spill-proof, child\/pet friendly",
+    "c_code_3": "fibreguard brand, 97% polyester, 3% viscose, 140,000 double rubs, fibreguard stainfree technology, spill-proof, child\/pet friendly",
+    "c_image_3": "shopify:\/\/shop_images\/Performance_Teal_Linen.jpg",
+    "c_txt_3": "",
+    "c_name_4": "Performance Sand Linen",
+    "c_code_4": "fibreguard brand, 97% polyester, 3% viscose, 140,000 double rubs, fibreguard stainfree technology, spill-proof, child\/pet friendly",
+    "c_image_4": "shopify:\/\/shop_images\/Performance_Sand_Linen.jpg",
+    "c_txt_4": "",
+    "c_name_5": "Performance Chevron Powder",
+    "c_code_5": "crypton brand, 83% rayon, 15% cotton, 2% nylon, 50,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "c_image_5": "shopify:\/\/shop_images\/Performance_Chevron_Powder.jpg",
+    "cb_txt_5": "",
+    "c_name_6": "Performance Basketweave Ivory",
+    "c_code_6": "94% polyester, 6% cotton, 150,000 double rubs, pill resistant, clean with soap, liquid resistant, fade resistant, eco-friendly, pfc free",
+    "c_image_6": "shopify:\/\/shop_images\/Performance_Basketweave_White.jpg",
+    "c_txt_6": "",
+    "c_name_7": "Ice Blue Velvet",
+    "c_code_7": "83% polyester, 17% cotton, 30,000 double rubs, professional cleaning recommended",
+    "c_image_7": "shopify:\/\/shop_images\/Ice_Blue_Velvet.jpg",
+    "c_txt_7": "",
+    "c_name_8": "Performance Navy Linen",
+    "c_code_8": "59% linen, 41% cotton, 30,000 double rubs, spill-proof, stain resistant, spot clean with a dry cloth and water",
+    "c_image_8": "shopify:\/\/shop_images\/Performance_Basketweave_Concord_Navy.jpg",
+    "c_txt_8": "",
+    "c_name_9": "Performance Kelly Green Linen",
+    "c_code_9": "59% linen, 41% cotton, 30,000 double rubs, spill-proof, stain resistant, spot clean with a dry cloth and water",
+    "c_image_9": "shopify:\/\/shop_images\/Performance_Kelly_Green_Linen.jpg",
+    "c_txt_9": "",
+    "c_name_10": "Performance Sky Blue Linen",
+    "c_code_10": "59% linen, 41% cotton, 30,000 double rubs, spill-proof, stain resistant, spot clean with a dry cloth and water",
+    "c_image_10": "shopify:\/\/shop_images\/Performance_Sky_Blue_Linen.jpg",
+    "c_txt_10": "",
+    "c_name_11": "Berry Linen",
+    "c_code_11": "100% polyester, 85,000 double rubs, washable",
+    "c_image_11": "shopify:\/\/shop_images\/Berry_Linen_c56ebaee-4974-42c9-be70-a2b0e7d4f682.jpg",
+    "c_txt_11": "",
+    "c_name_12": "Performance Pink Linen",
+    "c_code_12": "fibreguard brand, 97% polyester, 3% viscose, 140,000 double rubs, fibreguard stainfree technology, spill-proof, child\/pet friendly",
+    "c_image_12": "shopify:\/\/shop_images\/Performance_Pink_Linen.jpg",
+    "c_txt_12": "",
+    "c_name_13": "Performance Sailor Linen",
+    "c_code_13": "fibreguard brand, 97% polyester, 3% viscose, 140,000 double rubs, fibreguard stainfree technology, spill-proof, child\/pet friendly",
+    "c_image_13": "shopify:\/\/shop_images\/Performance_Sailor_Linen.jpg",
+    "c_txt_13": "",
+    "c_name_14": "Performance Chevron Indigo",
+    "c_code_14": "crypton brand, 83% rayon, 15% cotton, 2% nylon, 50,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "c_image_14": "shopify:\/\/shop_images\/Performance_Chevron_Indigo.jpg",
+    "c_txt_14": "",
+    "c_name_15": "Performance Chevron Sky",
+    "c_code_15": "crypton brand, 83% rayon, 15% cotton, 2% nylon, 50,000 double rubs, pill resistant, clean with soap, liquid\/stain resistant, quick dry, made in usa, eco-friendly",
+    "c_image_15": "shopify:\/\/shop_images\/Performance_Chevron_Sky.jpg",
+    "c_txt_15": "",
+    "c_name_16": "Cocoa Textured Weave",
+    "c_code_16": "100% polyester, 95,000 double rubs, cleaning code wa: (hand washable, use mild soap\/detergent and warm water, no bleach, no fabric softener)",
+    "c_image_16": "shopify:\/\/shop_images\/Coco_Textured_Weave.jpg",
+    "c_txt_16": "",
+    "c_name_17": "Performance Basketweave Frost",
+    "c_code_17": "94% polyester, 6% cotton, 150,000 double rubs, pill resistant, clean with soap, liquid resistant, fade resistant, eco-friendly, pfc free",
+    "c_image_17": "shopify:\/\/shop_images\/performance_Frost.jpg",
+    "c_txt_17": "",
+    "c_name_18": "Performance Basketweave Concord Navy",
+    "c_code_18": "94% polyester, 6% cotton, 150,000 double rubs, pill resistant, clean with soap, liquid resistant, fade resistant, eco-friendly, pfc free",
+    "c_image_18": "shopify:\/\/shop_images\/Performance_Basketweave_Concord_Navy.jpg",
+    "c_txt_18": "",
+    "c_name_19": "Emerald Velvet",
+    "c_code_19": "83% polyester, 17% cotton, 30,000 double rubs, professional cleaning recommended",
+    "c_image_19": "shopify:\/\/shop_images\/Emerald_Velvet_eaddad69-58f1-40a4-a60b-4d7b9253d9f6.jpg",
+    "c_txt_19": "",
+    "c_name_20": "Ballet Pink Velvet",
+    "c_code_20": "83% polyester, 17% cotton, 30,000 double rubs, professional cleaning recommended",
+    "c_image_20": "shopify:\/\/shop_images\/Ballet_Pink_Velvet_ccff871f-c030-400a-9020-2b86bca5926e.jpg",
+    "c_txt_20": "",
+    "c_name_21": "",
+    "c_code_21": "",
+    "c_image_21": "",
+    "c_txt_21": "",
+    "c_name_22": "",
+    "c_code_22": "",
+    "c_image_22": "",
+    "c_txt_22": "",
+    "c_name_23": "",
+    "c_code_23": "",
+    "c_image_23": "",
+    "c_txt_23": "",
+    "c_name_24": "",
+    "c_code_24": "",
+    "c_image_24": "",
+    "c_txt_24": "",
+    "h_name_1": "Les Touches Blue",
+    "h_code_1": "100% cotton, cleaning code: s (dry clean only)",
+    "h_image_1": "shopify:\/\/shop_images\/Les_Touches_Blue.jpg",
+    "h_txt_1": "",
+    "h_name_2": "Les Touches Black",
+    "h_code_2": "100% cotton, cleaning code: s (dry clean only)",
+    "h_image_2": "shopify:\/\/shop_images\/Les_Touches_Black.jpg",
+    "h_txt_2": "",
+    "h_name_3": "Les Touches Tan",
+    "h_code_3": "100% cotton, cleaning code: s (dry clean only)",
+    "h_image_3": "shopify:\/\/shop_images\/Les_Touches_Tan.jpg",
+    "h_txt_3": "",
+    "h_name_4": "Les Touches Green",
+    "h_code_4": "les touches green",
+    "h_image_4": "shopify:\/\/shop_images\/Les_Touches_Green.jpg",
+    "h_txt_4": "",
+    "h_name_5": "",
+    "h_code_5": "",
+    "h_image_5": "",
+    "h_txt_5": "",
+    "ct_name_1": "Python Stone Table Fabric",
+    "ct_code_1": "100% cotton, cleaning code: s (dry clean only)",
+    "ct_image_1": "shopify:\/\/shop_images\/Les_Touches_Blue.jpg",
+    "ct_txt_1": "",
+    "ct_name_2": "Les Touches Black",
+    "ct_code_2": "100% cotton, cleaning code: s (dry clean only)",
+    "ct_image_2": "shopify:\/\/shop_images\/Les_Touches_Black.jpg",
+    "ct_txt_2": "",
+    "ct_name_3": "Les Touches Tan",
+    "ct_code_3": "100% cotton, cleaning code: s (dry clean only)",
+    "ct_image_3": "shopify:\/\/shop_images\/Les_Touches_Tan.jpg",
+    "ct_txt_3": "",
+    "ct_name_4": "100% cotton, cleaning code: s (dry clean only)",
+    "ct_code_4": "les touches green",
+    "ct_image_4": "shopify:\/\/shop_images\/Les_Touches_Green.jpg",
+    "ct_txt_4": "",
+    "ct_name_5": "Python Ash Table Fabric",
+    "ct_code_5": "Grade B",
+    "ct_image_5": "shopify:\/\/shop_images\/Grade_B__Python_Ash_Table_Fabric.jpg",
+    "ct_txt_5": "",
+    "ct_name_6": "Python Ivory Table Fabric",
+    "ct_code_6": "Grade B",
+    "ct_image_6": "shopify:\/\/shop_images\/Grade_B__Python_Ivory_Table_Fabric.jpg",
+    "ct_txt_6": "",
+    "ct_name_7": "Python Stone Table Fabric",
+    "ct_code_7": "Grade B",
+    "ct_image_7": "shopify:\/\/shop_images\/Grade_B__Python_Stone_Table_Fabric.jpg",
+    "ct_txt_7": "",
+    "ct_name_8": "",
+    "ct_code_8": "",
+    "ct_image_8": "",
+    "ct_txt_8": "",
+    "ct_name_9": "",
+    "ct_code_9": "",
+    "ct_image_9": "",
+    "ct_txt_9": "",
+    "ct_name_10": "",
+    "ct_code_10": "",
+    "ct_image_10": "",
+    "ct_txt_10": "",
+    "tb_name_1": "Aqua grasscloth",
+    "tb_code_1": "shopify:\/\/shop_images\/Aqua_grasscloth_9e3a0ba4-8b0f-4e08-b332-17ee52795ba1.png",
+    "tb_name_2": "Blue grasscloth",
+    "tb_code_2": "shopify:\/\/shop_images\/Blue_grasscloth_3baf2dce-c021-4424-abba-539659ba81ca.png",
+    "tb_name_3": "Blush Rose grasscloth",
+    "tb_code_3": "shopify:\/\/shop_images\/Blush_Rose_grasscloth_62ff5526-4e52-482e-b4ab-3f0a4c0c7fdc.png",
+    "tb_name_4": "Emerald grasscloth",
+    "tb_code_4": "shopify:\/\/shop_images\/Emerald_grasscloth_d30cb78b-b7ca-4858-9278-d122ac2a8d21.png",
+    "tb_name_5": "Grey grasscloth",
+    "tb_code_5": "shopify:\/\/shop_images\/Grey_grasscloth_c5c30d99-7e29-4364-b551-f99d9db69f0b.png",
+    "tb_name_6": "Natural Sand grasscloth",
+    "tb_code_6": "shopify:\/\/shop_images\/Natural_Sand_grasscloth_1ab99033-c699-4759-a763-06a1b0cc19fc.png",
+    "tb_name_7": "Navy grasscloth",
+    "tb_code_7": "shopify:\/\/shop_images\/Navy_grasscloth_56eef2e2-0556-4f59-80e7-bd6d153d34d3.png",
+    "tb_name_8": "Sky Mineral grasscloth",
+    "tb_code_8": "shopify:\/\/shop_images\/Sky_Mineral_grasscloth_5f4902df-26f6-4014-9ddc-ae47991dad25.png",
+    "tb_name_9": "Spring Willow grasscloth",
+    "tb_code_9": "shopify:\/\/shop_images\/Spring_Willow_grasscloth_1a08e979-5161-4916-a936-6f844f77ffce.png",
+    "tb_name_10": "",
+    "tb_code_10": "",
+    "tf_name_1": "Ostrich Grey Table Fabric",
+    "tf_grade_1": "Grade A",
+    "tf_code_1": "shopify:\/\/shop_images\/Grade_A__Ostrich_Grey_Table_Fabric_4494bfc8-7773-4716-ba1d-cdaa26a9302e.jpg",
+    "tf_name_2": "Ostrich Navy Table Fabric",
+    "tf_grade_2": "Grade A",
+    "tf_code_2": "shopify:\/\/shop_images\/Grade_A__Ostrich_Navy_Table_Fabric_4fdf03fe-c52f-4a94-8148-f56884fec223.jpg",
+    "tf_name_3": "Ostrich White Table Fabric",
+    "tf_grade_3": "Grade A",
+    "tf_code_3": "shopify:\/\/shop_images\/Grade_A__Ostrich_White_Table_Fabric_393f7a11-b5c6-4c8e-aec8-2690a303bcd4.jpg",
+    "tf_name_4": "Croc Vanilla Table Fabric",
+    "tf_grade_4": "Grade B",
+    "tf_code_4": "shopify:\/\/shop_images\/Grade_B__Croc_Vanilla_Table_Fabric_7a3c13aa-7f7e-4448-b8f0-7bc307844d23.jpg",
+    "tf_name_5": "Python Ash Table Fabric",
+    "tf_grade_5": "Grade B",
+    "tf_code_5": "shopify:\/\/shop_images\/Grade_B__Python_Ash_Table_Fabric_88b49592-9390-497a-9389-209deffc9ba7.jpg",
+    "tf_name_6": "Python Ivory Table Fabric",
+    "tf_grade_6": "Grade B",
+    "tf_code_6": "shopify:\/\/shop_images\/Grade_B__Python_Ivory_Table_Fabric_3f7345e7-97b0-4960-80d4-c9856ed38d07.jpg",
+    "tf_name_7": "Python Stone Table Fabric",
+    "tf_grade_7": "Grade B",
+    "tf_code_7": "shopify:\/\/shop_images\/Grade_B__Python_Stone_Table_Fabric_e3cde6cf-e595-4abb-814f-cf254b343a2d.jpg",
+    "tf_name_8": "",
+    "tf_grade_8": "",
+    "tf_code_8": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#323232",
+    "checkout_button_color": "#5c5c5c",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "new-side-menu",
+          "secondary_menu": "company",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "background": "#f2e4e4",
+          "text_color": "#000000",
+          "content": "Are you a designer? Learn about our trade program here!",
+          "link": ""
+        }
+      },
+      "header": {
         "type": "header",
-        "content": "General"
-      },
-      {
-        "type": "color",
-        "id": "heading_color",
-        "label": "Heading",
-        "default": "#1c1b1b"
-      },
-      {
-        "type": "color",
-        "id": "text_color",
-        "label": "Body text",
-        "default": "#1c1b1b"
-      },
-      {
-        "type": "color",
-        "id": "text_light_color",
-        "label": "Body light text",
-        "default": "#6a6a6a"
-      },
-      {
-        "type": "color",
-        "id": "link_color",
-        "label": "Link color",
-        "default": "#6a6a6a"
-      },
-      {
-        "type": "color",
-        "id": "background",
-        "label": "Background",
-        "default": "#eaeaea"
-      },
-      {
-        "type": "color",
-        "id": "light_background",
-        "label": "Light background",
-        "default": "#ffffff"
-      },
-      {
-        "type": "color",
-        "id": "product_on_sale_color",
-        "label": "On sale accent",
-        "default": "#f94c43"
-      },
-      {
-        "type": "header",
-        "content": "Buttons"
-      },
-      {
-        "type": "color",
-        "id": "button_background",
-        "label": "Background",
-        "default": "#1c1b1b"
-      },
-      {
-        "type": "color",
-        "id": "button_text_color",
-        "label": "Text",
-        "default": "#ffffff"
-      },
-      {
-        "type": "header",
-        "content": "Header"
-      },
-      {
-        "type": "color",
-        "id": "header_background",
-        "label": "Background",
-        "default": "#ffffff"
-      },
-      {
-        "type": "color",
-        "id": "header_heading_color",
-        "label": "Heading and icons",
-        "default": "#1c1b1b"
-      },
-      {
-        "type": "color",
-        "id": "header_light_color",
-        "label": "Light text",
-        "default": "#6a6a6a"
-      },
-      {
-        "type": "header",
-        "content": "Footer"
-      },
-      {
-        "type": "color",
-        "id": "footer_background",
-        "label": "Background",
-        "default": "#ffffff"
-      },
-      {
-        "type": "color",
-        "id": "footer_heading_color",
-        "label": "Heading",
-        "default": "#1c1b1b"
-      },
-      {
-        "type": "color",
-        "id": "footer_text_color",
-        "label": "Text",
-        "default": "#6a6a6a"
-      },
-      {
-        "type": "header",
-        "content": "Sidebar navigation"
-      },
-      {
-        "type": "color",
-        "id": "navigation_background",
-        "label": "Background",
-        "default": "#1c1b1b"
-      },
-      {
-        "type": "color",
-        "id": "navigation_text_color",
-        "label": "Text",
-        "default": "#ffffff"
-      },
-      {
-        "type": "header",
-        "content": "Newsletter popup"
-      },
-      {
-        "type": "color",
-        "id": "newsletter_popup_background",
-        "label": "Background",
-        "default": "#1c1b1b"
-      },
-      {
-        "type": "color",
-        "id": "newsletter_popup_text_color",
-        "label": "Text",
-        "default": "#ffffff"
-      },
-      {
-        "type": "header",
-        "content": "Secondary elements",
-        "info": "This is used in modals and other secondary elements."
-      },
-      {
-        "type": "color",
-        "id": "secondary_elements_background",
-        "label": "Background",
-        "default": "#1c1b1b"
-      },
-      {
-        "type": "color",
-        "id": "secondary_elements_text_color",
-        "label": "Text",
-        "default": "#ffffff"
-      }
-    ]
-  },
-  {
-    "name": "Typography",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Headings"
-      },
-      {
-        "type": "font_picker",
-        "id": "heading_font",
-        "label": "Font",
-        "default": "helvetica_n4"
-      },
-      {
-        "type": "select",
-        "id": "heading_size",
-        "label": "Size",
-        "info": "All headings (small and large) will be adjusted.",
-        "options": [
-          {
-            "value": "small",
-            "label": "Small"
+        "blocks": {
+          "1561458123517": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Shop",
+              "push_1_image": "shopify:\/\/shop_images\/Mask_Group_8_2x_1ee25303-0fea-432e-a743-4272ebe62c24.png",
+              "push_1_heading": "SHOP OUR INSTAGRAM",
+              "push_1_subheading": "",
+              "push_1_url": "shopify:\/\/pages\/instagram",
+              "push_2_image": "",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": "",
+              "push_3_image": "",
+              "push_3_heading": "Example heading",
+              "push_3_subheading": "Example sub-heading",
+              "push_3_url": "",
+              "push_4_image": "",
+              "push_4_heading": "Example heading",
+              "push_4_subheading": "Example sub-heading",
+              "push_4_url": ""
+            }
           },
-          {
-            "value": "normal",
-            "label": "Normal"
-          },
-          {
-            "value": "large",
-            "label": "Large"
+          "1561372137078": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "explore",
+              "push_1_image": "shopify:\/\/shop_images\/Mask_Group_14_2x_fef168d1-43ba-4625-b60d-fce5364be922.png",
+              "push_1_heading": "GRASSCLOTH",
+              "push_1_subheading": "",
+              "push_1_url": "shopify:\/\/collections\/grasscloth",
+              "push_2_image": "shopify:\/\/shop_images\/Mask_Group_13_2x_6f795d43-9be0-46db-ab60-cbc72bfa1eb6.png",
+              "push_2_heading": "UPHOLSTERY",
+              "push_2_subheading": "",
+              "push_2_url": "",
+              "push_3_image": "shopify:\/\/shop_images\/Mask_Group_8_2x_1ee25303-0fea-432e-a743-4272ebe62c24.png",
+              "push_3_heading": "RATTAN",
+              "push_3_subheading": "",
+              "push_3_url": "shopify:\/\/collections\/rattan",
+              "push_4_image": "shopify:\/\/shop_images\/Mask_Group_13_2x_6f795d43-9be0-46db-ab60-cbc72bfa1eb6.png",
+              "push_4_heading": "CUSTOM COLOR",
+              "push_4_subheading": "",
+              "push_4_url": "shopify:\/\/collections\/custom-color"
+            }
           }
+        },
+        "block_order": [
+          "1561458123517",
+          "1561372137078"
         ],
-        "default": "small"
+        "settings": {
+          "use_sticky_header": false,
+          "logo": "shopify:\/\/shop_images\/SocietySocial-Logo.png",
+          "logo_max_width": 310,
+          "mobile_logo_max_width": 90,
+          "navigation_menu": "new-site-menu",
+          "navigation_style": "center",
+          "show_icons": false,
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": false,
+          "transparent_text_color": "#ffffff",
+          "transparent_logo": ""
+        }
       },
-      {
-        "type": "checkbox",
-        "id": "uppercase_heading",
-        "label": "Display headings in uppercase",
-        "default": true
-      },
-      {
-        "type": "header",
-        "content": "Body text"
-      },
-      {
-        "type": "font_picker",
-        "id": "text_font",
-        "label": "Font",
-        "default": "helvetica_n4"
-      },
-      {
-        "type": "range",
-        "id": "base_text_font_size",
-        "label": "Base size",
-        "min": 13,
-        "max": 17,
-        "unit": "px",
-        "default": 14
-      }
-    ]
-  },
-  {
-    "name": "Currency conversion",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "currency_conversion_enabled",
-        "label": "Enable currency conversion",
-        "default": false
-      },
-      {
-        "type": "checkbox",
-        "id": "currency_conversion_round_amounts",
-        "label": "Round converted amounts",
-        "default": true
-      },
-      {
-        "type": "text",
-        "id": "currency_conversion_supported_currencies",
-        "label": "Supported currencies",
-        "info": "List of currencies to display. You must separate each currencies by an empty space, and use the ISO 4217 3-letter code. Example: USD CAD EUR. All the possible values are [listed here](http:\/\/bit.ly\/1C4cZ3w).",
-        "default": "USD CAD EUR GBP"
-      },
-      {
-        "type": "select",
-        "id": "currency_conversion_money_format",
-        "label": "Money format",
-        "options": [
-          {
-            "value": "money_format",
-            "label": "Money ($10)"
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Join Our Mailing List",
+              "content": "<p>Receive 10% off your first order and keep up to date with new styles.<\/p>"
+            }
           },
-          {
-            "value": "money_with_currency_format",
-            "label": "Money with currency ($10 USD)"
+          "1554885617709": {
+            "type": "links",
+            "settings": {
+              "menu": "customer-care"
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "company"
+            }
+          },
+          "1554885644299": {
+            "type": "links",
+            "settings": {
+              "menu": "community"
+            }
           }
+        },
+        "block_order": [
+          "footer-2",
+          "1554885617709",
+          "footer-1",
+          "1554885644299"
         ],
-        "default": "money_format"
-      }
-    ]
-  },
-  {
-    "name": "Animation",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "show_page_transition",
-        "label": "Show page transition",
-        "default": true
+        "settings": {
+          "show_payment_methods": false
+        }
       },
-      {
-        "type": "checkbox",
-        "id": "show_button_transition",
-        "label": "Show button transition",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "show_image_zooming",
-        "label": "Show image zoom effect",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "show_element_staggering",
-        "label": "Reveal elements one by one",
-        "info": "This setting displays blog post and product grid element one after the other.",
-        "default": true
-      }
-    ]
-  },
-  {
-    "name": "Search",
-    "settings": [
-      {
-        "type": "select",
-        "id": "search_mode",
-        "label": "Search only...",
-        "options": [
-          {
-            "value": "product",
-            "label": "Products only"
-          },
-          {
-            "value": "product,page",
-            "label": "Products and pages"
-          },
-          {
-            "value": "product,article",
-            "label": "Products and articles"
-          },
-          {
-            "value": "product,article,page",
-            "label": "Products, articles and pages"
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_4890.jpg",
+              "mobile_image": "",
+              "apply_overlay": false,
+              "content_position": "bottomCenter",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
           }
+        },
+        "block_order": [
+          "slide-0"
         ],
-        "default": "product,article"
-      }
-    ]
-  },
-  {
-    "name": "Products grid",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Grid"
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": false,
+          "autoplay": false,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "button_color": "#363636",
+          "button_background": "#ffffff",
+          "left_url": "shopify:\/\/products\/the-quinn-lounge-chair",
+          "right_url": "shopify:\/\/products\/quinn-swivel",
+          "mid_url": "shopify:\/\/products\/the-beverly-sofa",
+          "top_url": "shopify:\/\/products\/palm-beach-retro-mirror",
+          "pillow_url": "shopify:\/\/products\/leopard-print-pillow",
+          "lamb_url": "shopify:\/\/products\/faux-mongolian-lamb-ottoman-large",
+          "table_url": "shopify:\/\/products\/newport-cocktail-table"
+        }
       },
-      {
-        "type": "checkbox",
-        "id": "product_show_price_on_hover",
-        "label": "Show price on hover",
-        "info": "Prices will always be visible on touch devices.",
-        "default": false
-      },
-      {
-        "type": "checkbox",
-        "id": "product_show_secondary_image",
-        "label": "Show secondary image on hover",
-        "default": false
-      },
-      {
-        "type": "select",
-        "id": "product_info_alignment",
-        "label": "Product info alignment",
-        "options": [
-          {
-            "value": "left",
-            "label": "Left"
-          },
-          {
-            "value": "center",
-            "label": "Center"
-          },
-          {
-            "value": "right",
-            "label": "Right"
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "new-website-homepage-collection-1",
+              "title": "",
+              "grid_items_count": 4,
+              "button_text": "Shop Now"
+            }
           }
+        },
+        "block_order": [
+          "featured-collection-0"
         ],
-        "default": "center"
+        "settings": {
+          "title": "Introducing our new Collection",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "1",
+          "grid_desktop_items_per_row": 4
+        }
       },
-      {
-        "type": "select",
-        "id": "product_image_size",
-        "label": "Product image size",
-        "options": [
-          {
-            "value": "natural",
-            "label": "Natural"
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/Endless_Colors.jpg",
+              "image_alignment": "center center",
+              "content_position": "middleCenter",
+              "subheading": "",
+              "title": "",
+              "button_text": "Endless Colors",
+              "button_link": "",
+              "apply_overlay": false
+            }
           },
-          {
-            "value": "short",
-            "label": "Short (4:3)"
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/Playful_Grasscloth.jpg",
+              "image_alignment": "center center",
+              "content_position": "middleCenter",
+              "subheading": "",
+              "title": "",
+              "button_text": "Playful Grasscloth",
+              "button_link": "",
+              "apply_overlay": false
+            }
           },
-          {
-            "value": "square",
-            "label": "Square (1:1)"
-          },
-          {
-            "value": "tall",
-            "label": "Tall (2:3)"
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/8S8A1981_c4fc1959-41a9-450d-a1e8-c1ed07fc8044.jpg",
+              "image_alignment": "center center",
+              "content_position": "middleCenter",
+              "subheading": "",
+              "title": "",
+              "button_text": "Upholstery for You",
+              "button_link": "",
+              "apply_overlay": false
+            }
           }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "collection-2"
         ],
-        "default": "natural"
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": true,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
       },
-      {
-        "type": "select",
-        "id": "product_list_horizontal_spacing",
-        "label": "Horizontal spacing",
-        "options": [
-          {
-            "value": "extra_small",
-            "label": "Extra small"
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_info": false,
+          "show_collection_image": false,
+          "apply_overlay": true,
+          "show_color_swatch": true,
+          "show_vendor": false,
+          "collection_image_size": "normal",
+          "show_sort_by": false,
+          "show_layout_switch": false,
+          "toolbar_position": "bottom",
+          "filter_position": "sidebar",
+          "filter_mode": "hidden",
+          "show_filter_color_swatch": false,
+          "filter_menu": "",
+          "grid_items_per_page": 49,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_section": false,
+          "title": "Recently viewed",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": false,
+          "image": "",
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "Our story",
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_share_buttons": false,
+          "show_vendor": false,
+          "show_sku": false,
+          "description_below_add_to_cart": true,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": false,
+          "image_size": "medium",
+          "stack_images": true,
+          "show_thumbnails": true,
+          "enable_image_zoom": false,
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "reviews_enabled": false,
+          "featured_image_size": "large"
+        }
+      },
+      "related-products": {
+        "type": "related-products",
+        "settings": {
+          "show_section": true,
+          "title": "Related Products",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": false,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Popup",
+          "content": "<p>You can use this popup to display some useful information to your customers.<\/p>",
+          "show_newsletter": true,
+          "apparition_delay": 5
+        }
+      },
+      "1554884481046": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "html": "<h6>We are a company with a really big heart, a love of modern style, and an insatiable penchant for fun, and flair. Cheers and welcome to the Social!<\/h6>"
+        }
+      },
+      "1554885068259": {
+        "type": "image-with-text-block",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/OurFabric.jpg",
+          "background": "#ffffff",
+          "text_color": "#1c1b1b",
+          "block_size": "normal",
+          "title": "",
+          "content": "<p>Our new performance fabrics are made to withstand all that life can throw your way. Kids, pets, and even spilled red wine.<\/p>",
+          "button_label": "Order Swatches",
+          "button_link": "shopify:\/\/pages\/swatches",
+          "show_parallax": false
+        }
+      },
+      "1554885207469": {
+        "type": "testimonials",
+        "blocks": {
+          "1554885207469-0": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/hgtv.png",
+              "quote": "<p>&ldquo;One of the best places to<br>buy furniture online&rdquo;<\/p>"
+            }
           },
-          {
-            "value": "small",
-            "label": "Small"
+          "1554885207469-1": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Harper_s_Bazaar_Logo.jpg",
+              "quote": "<p>&ldquo;This is a testimonial quote<br>from the press.&rdquo;<\/p>"
+            }
           },
-          {
-            "value": "medium",
-            "label": "Medium"
+          "1554885207469-2": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/oprah.png",
+              "quote": "<p>&ldquo;This is a testimonial quote<br>from the press.&rdquo;<\/p>"
+            }
           },
-          {
-            "value": "large",
-            "label": "Large"
-          },
-          {
-            "value": "extra_large",
-            "label": "Extra large"
+          "1554885449060": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/House-Beautiful-Logo.jpg",
+              "quote": "<p>&ldquo;This is a testimonial quote<br>from the press.&rdquo;<\/p>"
+            }
           }
+        },
+        "block_order": [
+          "1554885207469-0",
+          "1554885207469-1",
+          "1554885207469-2",
+          "1554885449060"
         ],
-        "default": "medium"
+        "settings": {
+          "autoplay": true,
+          "cycle_speed": 5,
+          "background": "#ffffff",
+          "text_color": "#1c1b1b",
+          "quote": "<p>&ldquo;One of the best places to<br>buy furniture online&rdquo;<\/p>"
+        }
       },
-      {
-        "type": "select",
-        "id": "product_list_vertical_spacing",
-        "label": "Vertical spacing",
-        "options": [
-          {
-            "value": "extra_small",
-            "label": "Extra small"
-          },
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "large",
-            "label": "Large"
-          },
-          {
-            "value": "extra_large",
-            "label": "Extra large"
+      "1554885482062": {
+        "type": "instagram-feed",
+        "settings": {
+          "subheading": "@societysocial",
+          "title": "Society Social",
+          "access_token": "31218757.6a7999e.528ad1cf3a5a4746be9470aee73d305f",
+          "image_count": 10,
+          "button_text": "Shop Our Instagram",
+          "button_url": "shopify:\/\/pages\/instagram",
+          "button_text2": "Customer Gallery",
+          "button_url2": "shopify:\/\/pages\/instagram"
+        }
+      },
+      "1559755759175": {
+        "type": "featured-collections",
+        "blocks": {
+          "1559755759175-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "new-website-homepage-collection-1",
+              "title": "",
+              "grid_items_count": 4,
+              "button_text": "ShoP More"
+            }
           }
+        },
+        "block_order": [
+          "1559755759175-0"
         ],
-        "default": "medium"
-      }
-    ]
-  },
-  {
-    "name": "Cart",
-    "settings": [
-      {
-        "type": "select",
-        "id": "cart_type",
-        "label": "Cart type",
-        "options": [
-          {
-            "value": "drawer",
-            "label": "Drawer"
-          },
-          {
-            "value": "page",
-            "label": "Page"
+        "settings": {
+          "title": "Team Favorites",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "1",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "1559755860751": {
+        "type": "blog-posts",
+        "blocks": {
+          "1559755860751-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "the-social-diary"
+            }
           }
+        },
+        "block_order": [
+          "1559755860751-0"
         ],
-        "default": "drawer"
+        "settings": {
+          "subheading": "",
+          "title": "Blog",
+          "show_category": false,
+          "button_link": "",
+          "button_text": "View Posts"
+        }
       },
-      {
-        "type": "checkbox",
-        "id": "cart_enable_notes",
-        "label": "Enable order notes",
-        "default": true
+      "1561372907718": {
+        "type": "Image-text-split",
+        "settings": {
+          "bg_img": "shopify:\/\/shop_images\/Roxy-NewCollection_2c5521f8-ab9f-47df-8d1a-6ecf14d64f7b.gif",
+          "heading": "Putting the fun in furniture.",
+          "description": "<p>Family Owned and Family Operated for almost 40 Years.<\/p>",
+          "btn_txt": "Our Story",
+          "btn_url": "shopify:\/\/pages\/our-story-1",
+          "font_color": ""
+        }
       },
-      {
-        "type": "checkbox",
-        "id": "cart_show_free_shipping_threshold",
-        "label": "Show free shipping minimum amount",
-        "info": "Make sure that you have properly configured your [shipping rates](\/admin\/settings\/shipping).",
-        "default": false
+      "collection-template-sofa": {
+        "type": "collection-template-sofa",
+        "settings": {
+          "show_collection_info": false,
+          "show_collection_image": false,
+          "apply_overlay": true,
+          "show_color_swatch": true,
+          "show_vendor": false,
+          "collection_image_size": "normal",
+          "show_sort_by": false,
+          "show_layout_switch": false,
+          "toolbar_position": "top",
+          "filter_position": "sidebar",
+          "filter_mode": "hidden",
+          "show_filter_color_swatch": false,
+          "filter_menu": "",
+          "grid_items_per_page": 7,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 2
+        }
       },
-      {
-        "type": "text",
-        "id": "cart_free_shipping_threshold",
-        "label": "Free shipping minimum amount",
-        "info": "Only write a number, no letters",
-        "default": "50"
+      "our-story": {
+        "type": "our-story",
+        "blocks": {
+          "1561373810158": {
+            "type": "image_text",
+            "settings": {
+              "position": "left",
+              "bg_img": "shopify:\/\/shop_images\/Mask_Group_17_2x_06f6172f-d422-4b27-b5f0-6ce873f0fe6e.png",
+              "heading": "Welcome to the Social!",
+              "description": "<p>We are a furniture company with a really big heart, a love of modern style, and an insatiable penchant for fun, and flair! Founded in August 2011 with six originally designed bar carts, Society Social continues to design and produce small but edited collections of unique furniture built in-house. With entertaining at the heart of our business, we truly believe you and your home should always be well equipped to celebrate. Cheers!<\/p>",
+              "btn_url": ""
+            }
+          },
+          "1561373832981": {
+            "type": "image_text",
+            "settings": {
+              "position": "right",
+              "bg_img": "shopify:\/\/shop_images\/Mask_Group_18_2x_49f869c3-a15a-4824-99e1-6eaf878d7270.png",
+              "heading": "Furniture is our legacy, quality is our priority.",
+              "description": "<p>Literally raised in her family&rsquo;s furniture factory, founder Roxy Te, grew up learning the ins and outs of creating exceptional pieces. Society Social is proud to continue the nearly 40 year tradition of creating quality furnishings available at friendly prices. Our privately owned family factories in Cebu, Philippines and Conover, North Carolina have been manufacturing since the early &rsquo;80s and are vertically integrated, allowing us to achieve the best in quality, design and product without taking a large retail markup.<\/p>\n<p>We&rsquo;ve manufactured for large US retailers, hospitality accounts and worked in conjunction with design teams to develop many private label and licensed collections. We have capabilities to work with metals, natural materials, synthetic outdoor materials and more. Each collection is a group effort by Roxy&rsquo;s family and the factories Society Social works hard to support.<\/p>",
+              "btn_url": ""
+            }
+          },
+          "1561373912687": {
+            "type": "image_text",
+            "settings": {
+              "position": "left",
+              "bg_img": "shopify:\/\/shop_images\/Mask_Group_19_2x_2ae5fd4f-8085-4750-b902-eba00428d6a1.png",
+              "heading": "Our one-of-a-kind designs.",
+              "description": "<p>Handmade by our team of artisans and craftsmen, our designs include NC upholstery, casegoods, and occasional furniture from textured raffia tables, to faux bamboo bar carts, and rattan and cane mirrors. Our designs are thought up in-house and are entirely original to our business. We pride ourselves on unique designs that are not mass produced and we strive to offer a designer look at an accessible price point. We make it our personal goal to only deliver the best in quality, design, and craftsmanship. All of our designs are custom finished or made to order, so go ahead and customize to your heart&rsquo;s desire!<\/p>",
+              "btn_url": ""
+            }
+          },
+          "1561373775213": {
+            "type": "galery",
+            "settings": {
+              "bg_img": "shopify:\/\/shop_images\/Beverly_sofa_2x_5f5b3d89-3f2b-492c-8f1b-5fae4b6fbade.png",
+              "bg_img1": "shopify:\/\/shop_images\/Bridgehampton_X-stool_2x_c3348727-cb22-450e-9b2d-e173dcbf0b73.png",
+              "bg_img2": "shopify:\/\/shop_images\/Celine_grasscloth_end_table_2x_85471cdf-bb0b-4d90-92a7-f2ed3834fe35.png",
+              "bg_img3": "shopify:\/\/shop_images\/Quinn_Lounge_Chair_2x_4e53d5cc-377b-444a-8ad3-117a9b6ce521.png",
+              "description": "<p>LIVE FROM OUR<\/p>\n<p>NC FACTORY<\/p>",
+              "btn_txt": "See Gallery",
+              "btn_url": "shopify:\/\/pages\/instagram",
+              "font_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1561373810158",
+          "1561373832981",
+          "1561373912687",
+          "1561373775213"
+        ],
+        "settings": {
+          "slider_height": 400
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_rss": false,
+          "show_tags": false,
+          "show_featured_article": false,
+          "show_category": true,
+          "heading": "ROXY’S PICKS",
+          "product_1": "elisa-sofa",
+          "product_2": "baytown-end-table",
+          "description": "<p>&ldquo;This is a callout<br>quote from Roxy<br>or other team<br>members.&rdquo;<\/p>",
+          "name": "— ROXY, FOUNDER & DESIGNER"
+        }
+      },
+      "shop-now": {
+        "type": "shop-now",
+        "settings": {
+          "show_section": false,
+          "title": "Shop now",
+          "collection": "",
+          "grid_items_count": 6,
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "Trade": {
+        "type": "Trade",
+        "blocks": {
+          "1561374719064": {
+            "type": "level",
+            "settings": {
+              "heading": "LEVEL 1",
+              "subheading": "Under $25,000",
+              "text_1": "20% off retail",
+              "text_2": "$500 re-order minimum"
+            }
+          },
+          "1561374743128": {
+            "type": "level",
+            "settings": {
+              "heading": "LEVEL 2",
+              "subheading": "$25,000 - $40,000",
+              "text_1": "25% off retail",
+              "text_2": "$500 re-order minimum"
+            }
+          }
+        },
+        "block_order": [
+          "1561374719064",
+          "1561374743128"
+        ],
+        "settings": {
+          "ba_heading": "You’re In",
+          "ba_txt": "Exclusive perks for the design professional",
+          "mid_img": "shopify:\/\/shop_images\/Rectangle_290_0614eb41-7781-480d-8e25-1446dab31712.png",
+          "txt_img": "Custom is the name of our game which means WE’RE YOUR NEW  BEST FRIEND. Hello!",
+          "mid_heading": "As part of our design program, you’ll enjoy:",
+          "mid_description": "<li>20% to 25% off retail prices year round<\/li>\n<li>First looks at new collections<\/li>\n<li>Access to our full swatch handles plus COM<\/li>\n<li>1500 color finishes or Benjamin Moore and\nSherwin Williams color matching<\/li>\n<li>40+ fabric options always handpicked by our team\nfrom the latest fabric markets<\/li>\n<li>Unique designs produced in small batches\nyou won't find anywhere else<\/li>"
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "page-contact-template-0": {
+            "type": "text",
+            "settings": {
+              "title": "Your phone (optional)",
+              "use_long_text": false,
+              "is_required": false
+            }
+          }
+        },
+        "block_order": [
+          "page-contact-template-0"
+        ],
+        "settings": {
+          "bg_img": ""
+        }
+      },
+      "instagram-feed": {
+        "type": "instagram-feed",
+        "settings": {
+          "subheading": "@SOCIETYSOCIAL",
+          "title": "Let’s Be Friends",
+          "access_token": "31218757.6a7999e.528ad1cf3a5a4746be9470aee73d305f",
+          "image_count": 15,
+          "button_text": "SHOP OUR INSTAGRAM",
+          "button_url": "shopify:\/\/pages\/instagram",
+          "button_text2": "SEE CUSTOMER GALLERY",
+          "button_url2": "shopify:\/\/pages\/instagram"
+        }
+      },
+      "Press": {
+        "type": "Press",
+        "blocks": {
+          "1561374994447": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Harper_s_Bazaar_Logo_49f9453b-ff6b-4ebc-ba7a-a7e141c696e8.png"
+            }
+          },
+          "1561374999767": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/hgtv_30387cae-b5ea-4bae-a719-4ad99b48845a.png"
+            }
+          },
+          "1561375010565": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/oprah_731368f9-bdce-43d3-b42e-4d2b69fd06ba.png"
+            }
+          },
+          "1561375059600": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/House-Beautiful-Logo_29927c1f-1626-4586-8e96-4efee83afea6.png"
+            }
+          },
+          "1561375073159": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/t_c_logo_blog_0_49535dfd-dd09-4639-8702-863685805f44.png"
+            }
+          },
+          "1561375085870": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AD-logo_4a428169-db0f-4b38-b23c-3fa2f3badf5f.png"
+            }
+          },
+          "1561375098812": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/download_5636355f-6952-45fb-8f0f-c0d8cef65d10.png"
+            }
+          },
+          "1561375109139": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Dell_logo_2016_black.svg_18c501f2-4c37-4627-904c-0808d1c69626.png"
+            }
+          },
+          "1561375118523": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/327886LOGO_a78b6314-835b-4009-9ac3-744b1ac1d797.png"
+            }
+          }
+        },
+        "block_order": [
+          "1561374994447",
+          "1561374999767",
+          "1561375010565",
+          "1561375059600",
+          "1561375073159",
+          "1561375085870",
+          "1561375098812",
+          "1561375109139",
+          "1561375118523"
+        ],
+        "settings": {
+          "banner_img": "shopify:\/\/shop_images\/sZlVZ_ls_2x_7626e3d0-029d-4811-be13-51a0101f62b0.png"
+        }
+      },
+      "Shipping": {
+        "type": "Shipping",
+        "blocks": {
+          "1561375298335": {
+            "type": "big_section",
+            "settings": {
+              "heading": "SHIPPING & LEAD TIMES",
+              "description": "<p>All orders ship out of our North Carolina factory. Due to the handmade nature of our products, production &amp; shipping lead times vary per piece. For accurate lead times, please reference the &ldquo;Shipping&rdquo; tab on each individual product page. As soon as your order ships, you will receive a shipping confirmation email with delivery information included. We do not offer international shipping at this time.<\/p>"
+            }
+          },
+          "1561375319470": {
+            "type": "small_section",
+            "settings": {
+              "description": "<p>FEDEX:<br>Small accessories such as lamps, rugs, trays, bar carts, etc will ship via FedEx. A tracking number will be provided in your shipping confirmation email. Orders shipping via FedEx typically deliver in a few business days. Please note, a signature may be required upon delivery.<\/p>\n<p>WHITE GLOVE DELIVERY:<br>Furniture (sofas, lounge chairs, multi-item orders too large to ship via regular mail) will be delivered via White Glove Delivery service. Items shipping via White Glove Delivery will be brought into your home, placed into the room of your choice, unpacked and all packaging will be removed. Because of this specialized service, please allow approximately 2-4 weeks for delivery depending on your location. Prior to delivery, you will receive a phone call from the delivery team to coordinate your delivery date + time window. The delivery will not be carried out unless the date has been confirmed by you. Please note, if you miss your confirmed and scheduled delivery, you will be responsible for a redelivery fee which is set by the delivery company.<\/p>"
+            }
+          },
+          "1561375334040": {
+            "type": "big_section",
+            "settings": {
+              "heading": "DAMAGES",
+              "description": "<p>At Society Social, we make it our personal goal to only deliver the best in quality, design, and craftsmanship. Your custom Society Social is inspected at each stage of production and must pass a final inspection before we release it for shipping. Although rare, transit damage can occur. Please be sure to follow the below steps:<\/p>"
+            }
+          },
+          "1561375330132": {
+            "type": "small_section",
+            "settings": {
+              "description": "<p>For FEDEX or USPS deliveries, please make sure to inspect your order upon receipt and notify us of any damages within 24 hours. Please take a photo of the damaged product as well as the box and email our team for review. Please hold on to all packaging. Our team will be in touch asap with next steps.<\/p>\n<p>For WHITE GLOVE DELIVERIES, please fully inspect your order while the delivery team is present and make a note of any freight damages on their paperwork. If we are not notified within 24 hours and if damages are not noted on the paperwork a claim will not be honored.<\/p>"
+            }
+          },
+          "1561375358954": {
+            "type": "big_section",
+            "settings": {
+              "heading": "RETURNS",
+              "description": "<p>The majority of our items are custom made or finished to order and are final sale. Please reference the &ldquo;Return&rdquo; page on the individual product page for accurate information. If an item is eligible for a return, please note you will be responsible for the return shipping charges, the outbound shipping charges and a restocking fee.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1561375298335",
+          "1561375319470",
+          "1561375334040",
+          "1561375330132",
+          "1561375358954"
+        ],
+        "settings": {
+        }
+      },
+      "split-page": {
+        "type": "split-page",
+        "blocks": {
+          "1561375449190": {
+            "type": "image_text",
+            "settings": {
+              "position": "left",
+              "bg_img": "shopify:\/\/shop_images\/Mask_Group_13_2x_6f795d43-9be0-46db-ab60-cbc72bfa1eb6.png",
+              "heading": "Custom Upholstery",
+              "description": "<p>As we offer a variety of fabric offerings for our custom upholstery collection, please reference the cleaning + care instructions found on the back of your fabric sample. If you have any questions please do not hesitate to reach out to our team!<\/p>\n<p>Although we are heavy on performance fabrics, we do offer a few non-performance linen and twills. We highly recommend sourcing a fabric protector to keep your custom SS in it&rsquo;s best shape! We&rsquo;ve used Forcefield Fabric Protector with success and it makes basic linens + twills liquid resistant. With that said, we highly recommend testing the protector on a small portion of your piece as we cannot advise as to how it will react to all fabric offerings.<\/p>",
+              "btn_txt": "",
+              "btn_url": ""
+            }
+          },
+          "1561375522010": {
+            "type": "image_text",
+            "settings": {
+              "position": "right",
+              "bg_img": "shopify:\/\/shop_images\/Mask_Group_14_2x_fef168d1-43ba-4625-b60d-fce5364be922.png",
+              "heading": "Natural & Hand-Dyed Grasscloth",
+              "description": "<p>Although our raffia is coated with a protective finish, it&rsquo;s a good idea to be mindful of the material. Like any natural material, similar to fabric, grasscloth can be subject to fading\/discoloration when exposed to direct sunlight for extended periods of time. Water and other liquids can also cause damage. We recommend sourcing a UV glass top to keep your grasscloth in its best shape over time! Grasscloth is a natural and handmade product and variations in color and texture are standard. These variations are not defects but are what add to the character of the material.<\/p>\n<p>Regarding spills, like any wood or natural material, the finish can be damaged when spills are not wiped up in a timely manner. Do not leave sitting liquids! Do not use harsh chemicals to clean this piece! Simply use a damp washcloth and mild dish soap, like Dawn, to clean.<\/p>",
+              "btn_txt": "",
+              "btn_url": ""
+            }
+          },
+          "1561375595081": {
+            "type": "image_text",
+            "settings": {
+              "position": "left",
+              "bg_img": "shopify:\/\/shop_images\/Mask_Group_15_2x_6e4d58d0-a1fb-49cc-bd27-e4e1ca4352b0.png",
+              "heading": "Color Collection Pieces",
+              "description": "<p>As an environmentally friendly brand, we&rsquo;ve intentionally chosen water-based painted finishes vs lacquered, oil-based finishes. Although lacquered finishes are known to be more durable, they are not only much more costly but also highly toxic and bad for the environment. Choosing water-based finishes is also what allows us to offer a wide range of colors while keeping prices accessible for what is traditionally a very high end category. Our painted pieces are given two coats of VOC free, non-toxic, exterior and furniture grade paint. With that said, painted furniture is not indestructible&mdash; accidents can happen in transit and at home with you. A bottle of touch-up is sent out with each order to keep your piece looking fresh and at its best!<\/p>\n<p>Regarding spills, like any wood or natural material, the finish can be damaged when spills are not wiped up in a timely manner. Do not leave sitting liquids! Do not use harsh chemicals to clean this piece! Simply use a damp washcloth and mild dish soap, like Dawn, to clean. Please note, our color collection pieces are for indoor use only.<\/p>",
+              "btn_txt": "",
+              "btn_url": ""
+            }
+          },
+          "1561375719280": {
+            "type": "image_text",
+            "settings": {
+              "position": "right",
+              "bg_img": "shopify:\/\/shop_images\/Mask_Group_16_2x_ac4c21c2-685b-4dc7-96f3-be4c32d2bd13.png",
+              "heading": "Bar Carts",
+              "description": "<p>We handcraft our bar carts one at a time for their end use&mdash; entertaining! Due to the function of the piece, we take great care in finishing each bar cart with a protective top coat to safeguard against liquid spills which if wiped up in a timely manner will not stain. With that said, like any wood or natural material, this piece can be subject to water damage if exposed to moisture for an extended period of time. Our bar carts are for indoor use only. Society Social is not responsible for damages caused by misuse or improper cleaning.<\/p>",
+              "btn_txt": "",
+              "btn_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "1561375449190",
+          "1561375522010",
+          "1561375595081",
+          "1561375719280"
+        ],
+        "settings": {
+          "slider_height": 400
+        }
+      },
+      "product-additional-info": {
+        "type": "product-additional-info",
+        "settings": {
+        }
+      },
+      "steps": {
+        "type": "steps",
+        "blocks": {
+          "1561376141342": {
+            "type": "steps",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Step_1_2x_c0169cb4-1526-4460-a243-5652c8006f1d.png",
+              "title": "HOW IT WORKS",
+              "content": "<p>Choose your style!<br>Love her in natural? Add to cart!<\/p>"
+            }
+          },
+          "1561376194545": {
+            "type": "steps",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Step_1_2x_c0169cb4-1526-4460-a243-5652c8006f1d.png",
+              "title": "HOW IT WORKS",
+              "content": "<p>Choose your style!<br>Love her in natural? Add to cart!<\/p>"
+            }
+          },
+          "1561376287242": {
+            "type": "steps",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Step_1_2x_c0169cb4-1526-4460-a243-5652c8006f1d.png",
+              "title": "HOW IT WORKS",
+              "content": "<p>Choose your style!<br>Love her in natural? Add to cart!<\/p>"
+            }
+          },
+          "1561376302285": {
+            "type": "steps",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Step_1_2x_c0169cb4-1526-4460-a243-5652c8006f1d.png",
+              "title": "HOW IT WORKS",
+              "content": "<p>Choose your style!<br>Love her in natural? Add to cart!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1561376141342",
+          "1561376194545",
+          "1561376287242",
+          "1561376302285"
+        ],
+        "settings": {
+        }
+      },
+      "page-swatches": {
+        "type": "page-swatches",
+        "blocks": {
+          "1561376378511": {
+            "type": "collection",
+            "settings": {
+              "collection": "grade-a"
+            }
+          },
+          "1561376380797": {
+            "type": "collection",
+            "settings": {
+              "collection": "grade-b"
+            }
+          },
+          "1561376448087": {
+            "type": "collection",
+            "settings": {
+              "collection": "grade-c"
+            }
+          },
+          "1561376465293": {
+            "type": "collection",
+            "settings": {
+              "collection": "grade-h"
+            }
+          },
+          "1561376489006": {
+            "type": "collection",
+            "settings": {
+              "collection": "tape-trims"
+            }
+          },
+          "1561376513742": {
+            "type": "collection",
+            "settings": {
+              "collection": "vinyl-grasscloths"
+            }
+          },
+          "1561376530344": {
+            "type": "collection",
+            "settings": {
+              "collection": "upholstered-table-fabrics"
+            }
+          }
+        },
+        "block_order": [
+          "1561376378511",
+          "1561376380797",
+          "1561376448087",
+          "1561376465293",
+          "1561376489006",
+          "1561376513742",
+          "1561376530344"
+        ],
+        "settings": {
+          "heading": "We offer a wide variety of fabrics in an array of textures and colors, all available on our custom upholstery collection.",
+          "description": "<p>Grade pricing per piece can be viewed on each individual product page. We want designing your own unique look to be easy and fun! We&rsquo;re always happy to help you make decisions, which is why we offer up to 10 swatches for $5. If you decide to order, we&rsquo;ll <br>take the difference off your purchase.<\/p>"
+        }
       }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1554884481046",
+      "collection-list",
+      "featured-collections",
+      "1554885068259",
+      "1559755759175",
+      "1561372907718",
+      "1554885207469",
+      "1554885482062",
+      "1559755860751"
     ]
   },
-  {
-    "name": "Social media",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "share_image",
-        "label": "Share image",
-        "info": "This image is used when you share pages such as home page. For product, collection or article pages, the featured image will be used instead."
-      },
-      {
-        "type": "header",
-        "content": "Accounts"
-      },
-      {
-        "type": "text",
-        "id": "social_facebook",
-        "info": "https:\/\/www.facebook.com\/shopify",
-        "label": "Facebook"
-      },
-      {
-        "type": "text",
-        "id": "social_twitter",
-        "info": "https:\/\/twitter.com\/shopify",
-        "label": "Twitter"
-      },
-      {
-        "type": "text",
-        "id": "social_pinterest",
-        "info": "https:\/\/www.pinterest.com\/shopify",
-        "label": "Pinterest"
-      },
-      {
-        "type": "text",
-        "id": "social_instagram",
-        "info": "https:\/\/instagram.com\/shopify",
-        "label": "Instagram"
-      },
-      {
-        "type": "text",
-        "id": "social_vimeo",
-        "info": "https:\/\/vimeo.com\/shopify",
-        "label": "Vimeo"
-      },
-      {
-        "type": "text",
-        "id": "social_tumblr",
-        "info": "https:\/\/shopify.tumblr.com",
-        "label": "Tumblr"
-      },
-      {
-        "type": "text",
-        "id": "social_youtube",
-        "info": "https:\/\/www.youtube.com\/user\/shopify",
-        "label": "YouTube"
-      },
-      {
-        "type": "text",
-        "id": "social_linkedin",
-        "info": "https:\/\/linkedin.com\/in\/shopify",
-        "label": "LinkedIn"
-      },
-      {
-        "type": "text",
-        "id": "social_snapchat",
-        "info": "https:\/\/snapchat.com\/add\/shopify",
-        "label": "Snapchat"
-      },
-      {
-        "type": "text",
-        "id": "social_fancy",
-        "info": "https:\/\/fancy.com\/Shopify",
-        "label": "Fancy"
-      }
-    ]
-  },
-  {
-    "name": "Color Variants",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Color Variants"
-      },
-      {
-        "type": "color",
-        "id": "color1",
-        "label": "Variant 1"
-      },
-      {
-        "type": "text",
-        "id": "colorname1",
-        "label": "Variant Name 1"
-      },
-      {
-        "type": "color",
-        "id": "color2",
-        "label": "Variant 2"
-      },
-      {
-        "type": "text",
-        "id": "colorname2",
-        "label": "Variant Name 2"
-      },
-      {
-        "type": "color",
-        "id": "color3",
-        "label": "Variant 3"
-      },
-      {
-        "type": "text",
-        "id": "colorname3",
-        "label": "Variant Name 3"
-      },
-      {
-        "type": "color",
-        "id": "color4",
-        "label": "Variant 4"
-      },
-      {
-        "type": "text",
-        "id": "colorname4",
-        "label": "Variant Name 4"
-      },
-      {
-        "type": "color",
-        "id": "color5",
-        "label": "Variant 5"
-      },
-      {
-        "type": "text",
-        "id": "colorname5",
-        "label": "Variant Name 5"
-      },
-      {
-        "type": "color",
-        "id": "color6",
-        "label": "Variant 6"
-      },
-      {
-        "type": "text",
-        "id": "colorname6",
-        "label": "Variant Name 6"
-      },
-      {
-        "type": "color",
-        "id": "color7",
-        "label": "Variant 7"
-      },
-      {
-        "type": "text",
-        "id": "colorname7",
-        "label": "Variant Name 7"
-      },
-      {
-        "type": "color",
-        "id": "color8",
-        "label": "Variant 8"
-      },
-      {
-        "type": "text",
-        "id": "colorname8",
-        "label": "Variant Name 8"
-      },
-      {
-        "type": "color",
-        "id": "color9",
-        "label": "Variant 9"
-      },
-      {
-        "type": "text",
-        "id": "colorname9",
-        "label": "Variant Name 9"
-      },
-      {
-        "type": "color",
-        "id": "color10",
-        "label": "Variant 10"
-      },
-      {
-        "type": "text",
-        "id": "colorname10",
-        "label": "Variant Name 10"
-      },
-      {
-        "type": "color",
-        "id": "color11",
-        "label": "Variant 11"
-      },
-      {
-        "type": "text",
-        "id": "colorname11",
-        "label": "Variant Name 11"
-      },
-      {
-        "type": "color",
-        "id": "color12",
-        "label": "Variant 12"
-      },
-      {
-        "type": "text",
-        "id": "colorname12",
-        "label": "Variant Name 12"
-      },
-      {
-        "type": "color",
-        "id": "color13",
-        "label": "Variant 13"
-      },
-      {
-        "type": "text",
-        "id": "colorname13",
-        "label": "Variant Name 13"
-      },
-      {
-        "type": "color",
-        "id": "color14",
-        "label": "Variant 14"
-      },
-      {
-        "type": "text",
-        "id": "colorname14",
-        "label": "Variant Name 14"
-      },
-      {
-        "type": "color",
-        "id": "color15",
-        "label": "Variant 15"
-      },
-      {
-        "type": "text",
-        "id": "colorname15",
-        "label": "Variant Name 15"
-      }
-    ]
-  },
-  {
-    "name": "Color Option",
-    "settings": [
-      {
-        "type": "text",
-        "id": "op_color_1",
-        "label": "color name 1"
-      },
-      {
-        "type": "text",
-        "id": "code_color_1",
-        "label": "color code 1"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_1",
-        "label": "color text 1"
-      },
-      {
-        "type": "color",
-        "id": "color_code_1",
-        "label": "color color 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_1",
-        "label": "color name 1"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_1",
-        "label": "product name 1",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_2",
-        "label": "color name 2"
-      },
-      {
-        "type": "text",
-        "id": "code_color_2",
-        "label": "color code 2"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_2",
-        "label": "color text 2"
-      },
-      {
-        "type": "color",
-        "id": "color_code_2",
-        "label": "color color 2"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_2",
-        "label": "color name 2"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_2",
-        "label": "product name 2",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_3",
-        "label": "color name 3"
-      },
-      {
-        "type": "text",
-        "id": "code_color_3",
-        "label": "color code 3"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_3",
-        "label": "color text 3"
-      },
-      {
-        "type": "color",
-        "id": "color_code_3",
-        "label": "color color 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_3",
-        "label": "color name 3"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_3",
-        "label": "product name 3",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_4",
-        "label": "color name 4"
-      },
-      {
-        "type": "text",
-        "id": "code_color_4",
-        "label": "color code 4"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_4",
-        "label": "color text 4"
-      },
-      {
-        "type": "color",
-        "id": "color_code_4",
-        "label": "color color 4"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_4",
-        "label": "color name 4"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_4",
-        "label": "product name 4",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_5",
-        "label": "color name 5"
-      },
-      {
-        "type": "text",
-        "id": "code_color_5",
-        "label": "color code 5"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_5",
-        "label": "color text 5"
-      },
-      {
-        "type": "color",
-        "id": "color_code_5",
-        "label": "color color 5"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_5",
-        "label": "color name 5"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_5",
-        "label": "product name 5",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_6",
-        "label": "color name 6"
-      },
-      {
-        "type": "text",
-        "id": "code_color_6",
-        "label": "color code 6"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_6",
-        "label": "color text 6"
-      },
-      {
-        "type": "color",
-        "id": "color_code_6",
-        "label": "color color 6"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_6",
-        "label": "color name 6"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_6",
-        "label": "product name 6",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_7",
-        "label": "color name 7"
-      },
-      {
-        "type": "text",
-        "id": "code_color_7",
-        "label": "color code 7"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_7",
-        "label": "color text 7"
-      },
-      {
-        "type": "color",
-        "id": "color_code_7",
-        "label": "color color 7"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_7",
-        "label": "color name 7"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_7",
-        "label": "product name 7",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_8",
-        "label": "color name 8"
-      },
-      {
-        "type": "text",
-        "id": "code_color_8",
-        "label": "color code 8"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_8",
-        "label": "color text 8"
-      },
-      {
-        "type": "color",
-        "id": "color_code_8",
-        "label": "color color 8"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_8",
-        "label": "color name 8"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_8",
-        "label": "product name 8",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_9",
-        "label": "color name 9"
-      },
-      {
-        "type": "text",
-        "id": "code_color_9",
-        "label": "color code 9"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_9",
-        "label": "color text 9"
-      },
-      {
-        "type": "color",
-        "id": "color_code_9",
-        "label": "color color 9"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_9",
-        "label": "color name 9"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_9",
-        "label": "product name 9",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_10",
-        "label": "color name 10"
-      },
-      {
-        "type": "text",
-        "id": "code_color_10",
-        "label": "color code 10"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_10",
-        "label": "color text 10"
-      },
-      {
-        "type": "color",
-        "id": "color_code_10",
-        "label": "color color 10"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_10",
-        "label": "color name 10"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_10",
-        "label": "product name 10",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_11",
-        "label": "color name 11"
-      },
-      {
-        "type": "text",
-        "id": "code_color_11",
-        "label": "color code 11"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_11",
-        "label": "color text 11"
-      },
-      {
-        "type": "color",
-        "id": "color_code_11",
-        "label": "color color 11"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_11",
-        "label": "color name 11"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_11",
-        "label": "product name 11",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_12",
-        "label": "color name 12"
-      },
-      {
-        "type": "text",
-        "id": "code_color_12",
-        "label": "color code 12"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_12",
-        "label": "color text 12"
-      },
-      {
-        "type": "color",
-        "id": "color_code_12",
-        "label": "color color 12"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_12",
-        "label": "color name 12"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_12",
-        "label": "product name 12",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_13",
-        "label": "color name 13"
-      },
-      {
-        "type": "text",
-        "id": "code_color_13",
-        "label": "color code 13"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_13",
-        "label": "color text 13"
-      },
-      {
-        "type": "color",
-        "id": "color_code_13",
-        "label": "color color 13"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_13",
-        "label": "color name 13"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_13",
-        "label": "product name 13",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_14",
-        "label": "color name 14"
-      },
-      {
-        "type": "text",
-        "id": "code_color_14",
-        "label": "color code 14"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_14",
-        "label": "color text 14"
-      },
-      {
-        "type": "color",
-        "id": "color_code_14",
-        "label": "color color 14"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_14",
-        "label": "color name 14"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_14",
-        "label": "product name 14",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_15",
-        "label": "color name 15"
-      },
-      {
-        "type": "text",
-        "id": "code_color_15",
-        "label": "color code 15"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_15",
-        "label": "color text 15"
-      },
-      {
-        "type": "color",
-        "id": "color_code_15",
-        "label": "color color 15"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_15",
-        "label": "color name 15"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_15",
-        "label": "product name 15",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_16",
-        "label": "color name 16"
-      },
-      {
-        "type": "text",
-        "id": "code_color_16",
-        "label": "color code 16"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_16",
-        "label": "color text 16"
-      },
-      {
-        "type": "color",
-        "id": "color_code_16",
-        "label": "color color 16"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_16",
-        "label": "color name 16"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_16",
-        "label": "product name 16",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_17",
-        "label": "color name 17"
-      },
-      {
-        "type": "text",
-        "id": "code_color_17",
-        "label": "color code 17"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_17",
-        "label": "color text 17"
-      },
-      {
-        "type": "color",
-        "id": "color_code_17",
-        "label": "color color 17"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_17",
-        "label": "color name 17"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_17",
-        "label": "product name 17",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_18",
-        "label": "color name 18"
-      },
-      {
-        "type": "text",
-        "id": "code_color_18",
-        "label": "color code 18"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_18",
-        "label": "color text 18"
-      },
-      {
-        "type": "color",
-        "id": "color_code_18",
-        "label": "color color 18"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_18",
-        "label": "color name 18"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_18",
-        "label": "product name 18",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_19",
-        "label": "color name 19"
-      },
-      {
-        "type": "text",
-        "id": "code_color_19",
-        "label": "color code 19"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_19",
-        "label": "color text 19"
-      },
-      {
-        "type": "color",
-        "id": "color_code_19",
-        "label": "color color 19"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_19",
-        "label": "color name 19"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_19",
-        "label": "product name 19",
-        "info": "product name like product name1 | product name 2"
-      },
-      {
-        "type": "text",
-        "id": "op_color_20",
-        "label": "color name 20"
-      },
-      {
-        "type": "text",
-        "id": "code_color_20",
-        "label": "color code 20"
-      },
-      {
-        "type": "text",
-        "id": "txt_color_20",
-        "label": "color text 20"
-      },
-      {
-        "type": "color",
-        "id": "color_code_20",
-        "label": "color color 20"
-      },
-      {
-        "type": "image_picker",
-        "id": "color_img_20",
-        "label": "color name 20"
-      },
-      {
-        "type": "html",
-        "id": "remove_product_20",
-        "label": "product name 20",
-        "info": "product name like product name1 | product name 2"
-      }
-    ]
-  },
-  {
-    "name": "Product fabric Grade A",
-    "settings": [
-      {
-        "type": "text",
-        "id": "a_name_1",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "a_code_1",
-        "label": "code 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_1",
-        "label": "image 1"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_1",
-        "label": "text 1"
-      },
-      {
-        "type": "text",
-        "id": "a_name_2",
-        "label": "Name 2"
-      },
-      {
-        "type": "text",
-        "id": "a_code_2",
-        "label": "code 21"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_2",
-        "label": "image 21"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_2",
-        "label": "text 2"
-      },
-      {
-        "type": "text",
-        "id": "a_name_3",
-        "label": "Name 3"
-      },
-      {
-        "type": "text",
-        "id": "a_code_3",
-        "label": "code 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_3",
-        "label": "image 3"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_3",
-        "label": "text 3"
-      },
-      {
-        "type": "text",
-        "id": "a_name_4",
-        "label": "Name 4"
-      },
-      {
-        "type": "text",
-        "id": "a_code_4",
-        "label": "code 4"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_4",
-        "label": "image 4"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_4",
-        "label": "text 4"
-      },
-      {
-        "type": "text",
-        "id": "a_name_5",
-        "label": "Name 5"
-      },
-      {
-        "type": "text",
-        "id": "a_code_5",
-        "label": "code 5"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_5",
-        "label": "image 5"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_5",
-        "label": "text 5"
-      },
-      {
-        "type": "text",
-        "id": "a_name_6",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "a_code_6",
-        "label": "code 6"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_6",
-        "label": "image 6"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_6",
-        "label": "text 6"
-      },
-      {
-        "type": "text",
-        "id": "a_name_7",
-        "label": "Name 7"
-      },
-      {
-        "type": "text",
-        "id": "a_code_7",
-        "label": "code 7"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_7",
-        "label": "image 7"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_7",
-        "label": "text 7"
-      },
-      {
-        "type": "text",
-        "id": "a_name_8",
-        "label": "Name 8"
-      },
-      {
-        "type": "text",
-        "id": "a_code_8",
-        "label": "code 8"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_8",
-        "label": "image 8"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_8",
-        "label": "text 8"
-      },
-      {
-        "type": "text",
-        "id": "a_name_9",
-        "label": "Name 9"
-      },
-      {
-        "type": "text",
-        "id": "a_code_9",
-        "label": "code 9"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_9",
-        "label": "image 9"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_9",
-        "label": "text 9"
-      },
-      {
-        "type": "text",
-        "id": "a_name_10",
-        "label": "Name 10"
-      },
-      {
-        "type": "text",
-        "id": "a_code_10",
-        "label": "code 10"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_10",
-        "label": "image 10"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_10",
-        "label": "text 10"
-      },
-      {
-        "type": "text",
-        "id": "a_name_11",
-        "label": "Name 11"
-      },
-      {
-        "type": "text",
-        "id": "a_code_11",
-        "label": "code 11"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_11",
-        "label": "image 11"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_11",
-        "label": "text 11"
-      },
-      {
-        "type": "text",
-        "id": "a_name_12",
-        "label": "Name 12"
-      },
-      {
-        "type": "text",
-        "id": "a_code_12",
-        "label": "code 12"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_12",
-        "label": "image 12"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_12",
-        "label": "text 12"
-      },
-      {
-        "type": "text",
-        "id": "a_name_13",
-        "label": "Name 13"
-      },
-      {
-        "type": "text",
-        "id": "a_code_13",
-        "label": "code 13"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_13",
-        "label": "image 13"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_13",
-        "label": "text 13"
-      },
-      {
-        "type": "text",
-        "id": "a_name_14",
-        "label": "Name 14"
-      },
-      {
-        "type": "text",
-        "id": "a_code_14",
-        "label": "code 14"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_14",
-        "label": "image 14"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_14",
-        "label": "text 14"
-      },
-      {
-        "type": "text",
-        "id": "a_name_15",
-        "label": "Name 15"
-      },
-      {
-        "type": "text",
-        "id": "a_code_15",
-        "label": "code 15"
-      },
-      {
-        "type": "image_picker",
-        "id": "a_image_15",
-        "label": "image 15"
-      },
-      {
-        "type": "richtext",
-        "id": "a_txt_15",
-        "label": "text 15"
-      }
-    ]
-  },
-  {
-    "name": "Product fabric Grade B",
-    "settings": [
-      {
-        "type": "text",
-        "id": "b_name_1",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "b_code_1",
-        "label": "code 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_1",
-        "label": "image 1"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_1",
-        "label": "text 1"
-      },
-      {
-        "type": "text",
-        "id": "b_name_2",
-        "label": "Name 2"
-      },
-      {
-        "type": "text",
-        "id": "b_code_2",
-        "label": "code 21"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_2",
-        "label": "image 21"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_2",
-        "label": "text 2"
-      },
-      {
-        "type": "text",
-        "id": "b_name_3",
-        "label": "Name 3"
-      },
-      {
-        "type": "text",
-        "id": "b_code_3",
-        "label": "code 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_3",
-        "label": "image 3"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_3",
-        "label": "text 3"
-      },
-      {
-        "type": "text",
-        "id": "b_name_4",
-        "label": "Name 4"
-      },
-      {
-        "type": "text",
-        "id": "b_code_4",
-        "label": "code 4"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_4",
-        "label": "image 4"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_4",
-        "label": "text 4"
-      },
-      {
-        "type": "text",
-        "id": "b_name_5",
-        "label": "Name 5"
-      },
-      {
-        "type": "text",
-        "id": "b_code_5",
-        "label": "code 5"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_5",
-        "label": "image 5"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_5",
-        "label": "text 5"
-      },
-      {
-        "type": "text",
-        "id": "b_name_6",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "b_code_6",
-        "label": "code 6"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_6",
-        "label": "image 6"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_6",
-        "label": "text 6"
-      },
-      {
-        "type": "text",
-        "id": "b_name_7",
-        "label": "Name 7"
-      },
-      {
-        "type": "text",
-        "id": "b_code_7",
-        "label": "code 7"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_7",
-        "label": "image 7"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_7",
-        "label": "text 7"
-      },
-      {
-        "type": "text",
-        "id": "b_name_8",
-        "label": "Name 8"
-      },
-      {
-        "type": "text",
-        "id": "b_code_8",
-        "label": "code 8"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_8",
-        "label": "image 8"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_8",
-        "label": "text 8"
-      },
-      {
-        "type": "text",
-        "id": "b_name_9",
-        "label": "Name 9"
-      },
-      {
-        "type": "text",
-        "id": "b_code_9",
-        "label": "code 9"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_9",
-        "label": "image 9"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_9",
-        "label": "text 9"
-      },
-      {
-        "type": "text",
-        "id": "b_name_10",
-        "label": "Name 10"
-      },
-      {
-        "type": "text",
-        "id": "b_code_10",
-        "label": "code 10"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_10",
-        "label": "image 10"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_10",
-        "label": "text 10"
-      },
-      {
-        "type": "text",
-        "id": "b_name_11",
-        "label": "Name 11"
-      },
-      {
-        "type": "text",
-        "id": "b_code_11",
-        "label": "code 11"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_11",
-        "label": "image 11"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_11",
-        "label": "text 11"
-      },
-      {
-        "type": "text",
-        "id": "b_name_12",
-        "label": "Name 12"
-      },
-      {
-        "type": "text",
-        "id": "b_code_12",
-        "label": "code 12"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_12",
-        "label": "image 12"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_12",
-        "label": "text 12"
-      },
-      {
-        "type": "text",
-        "id": "b_name_13",
-        "label": "Name 13"
-      },
-      {
-        "type": "text",
-        "id": "b_code_13",
-        "label": "code 13"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_13",
-        "label": "image 13"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_13",
-        "label": "text 13"
-      },
-      {
-        "type": "text",
-        "id": "b_name_14",
-        "label": "Name 14"
-      },
-      {
-        "type": "text",
-        "id": "b_code_14",
-        "label": "code 14"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_14",
-        "label": "image 14"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_14",
-        "label": "text 14"
-      },
-      {
-        "type": "text",
-        "id": "b_name_15",
-        "label": "Name 15"
-      },
-      {
-        "type": "text",
-        "id": "b_code_15",
-        "label": "code 15"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_15",
-        "label": "image 15"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_15",
-        "label": "text 15"
-      },
-      {
-        "type": "text",
-        "id": "b_name_16",
-        "label": "Name 16"
-      },
-      {
-        "type": "text",
-        "id": "b_code_16",
-        "label": "code 16"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_16",
-        "label": "image 16"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_16",
-        "label": "text 16"
-      },
-      {
-        "type": "text",
-        "id": "b_name_17",
-        "label": "Name 17"
-      },
-      {
-        "type": "text",
-        "id": "b_code_17",
-        "label": "code 17"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_17",
-        "label": "image 17"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_17",
-        "label": "text 17"
-      },
-      {
-        "type": "text",
-        "id": "b_name_18",
-        "label": "Name 18"
-      },
-      {
-        "type": "text",
-        "id": "b_code_18",
-        "label": "code 18"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_18",
-        "label": "image 18"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_18",
-        "label": "text 18"
-      },
-      {
-        "type": "text",
-        "id": "b_name_19",
-        "label": "Name 19"
-      },
-      {
-        "type": "text",
-        "id": "b_code_19",
-        "label": "code 19"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_19",
-        "label": "image 19"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_19",
-        "label": "text 19"
-      },
-      {
-        "type": "text",
-        "id": "b_name_20",
-        "label": "Name 20"
-      },
-      {
-        "type": "text",
-        "id": "b_code_20",
-        "label": "code 20"
-      },
-      {
-        "type": "image_picker",
-        "id": "b_image_20",
-        "label": "image 20"
-      },
-      {
-        "type": "richtext",
-        "id": "b_txt_20",
-        "label": "text 20"
-      }
-    ]
-  },
-  {
-    "name": "Product fabric Grade c",
-    "settings": [
-      {
-        "type": "text",
-        "id": "c_name_1",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "c_code_1",
-        "label": "code 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_1",
-        "label": "image 1"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_1",
-        "label": "text 1"
-      },
-      {
-        "type": "text",
-        "id": "c_name_2",
-        "label": "Name 2"
-      },
-      {
-        "type": "text",
-        "id": "c_code_2",
-        "label": "code 21"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_2",
-        "label": "image 21"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_2",
-        "label": "text 2"
-      },
-      {
-        "type": "text",
-        "id": "c_name_3",
-        "label": "Name 3"
-      },
-      {
-        "type": "text",
-        "id": "c_code_3",
-        "label": "code 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_3",
-        "label": "image 3"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_3",
-        "label": "text 3"
-      },
-      {
-        "type": "text",
-        "id": "c_name_4",
-        "label": "Name 4"
-      },
-      {
-        "type": "text",
-        "id": "c_code_4",
-        "label": "code 4"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_4",
-        "label": "image 4"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_4",
-        "label": "text 4"
-      },
-      {
-        "type": "text",
-        "id": "c_name_5",
-        "label": "Name 5"
-      },
-      {
-        "type": "text",
-        "id": "c_code_5",
-        "label": "code 5"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_5",
-        "label": "image 5"
-      },
-      {
-        "type": "richtext",
-        "id": "cb_txt_5",
-        "label": "text 5"
-      },
-      {
-        "type": "text",
-        "id": "c_name_6",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "c_code_6",
-        "label": "code 6"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_6",
-        "label": "image 6"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_6",
-        "label": "text 6"
-      },
-      {
-        "type": "text",
-        "id": "c_name_7",
-        "label": "Name 7"
-      },
-      {
-        "type": "text",
-        "id": "c_code_7",
-        "label": "code 7"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_7",
-        "label": "image 7"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_7",
-        "label": "text 7"
-      },
-      {
-        "type": "text",
-        "id": "c_name_8",
-        "label": "Name 8"
-      },
-      {
-        "type": "text",
-        "id": "c_code_8",
-        "label": "code 8"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_8",
-        "label": "image 8"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_8",
-        "label": "text 8"
-      },
-      {
-        "type": "text",
-        "id": "c_name_9",
-        "label": "Name 9"
-      },
-      {
-        "type": "text",
-        "id": "c_code_9",
-        "label": "code 9"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_9",
-        "label": "image 9"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_9",
-        "label": "text 9"
-      },
-      {
-        "type": "text",
-        "id": "c_name_10",
-        "label": "Name 10"
-      },
-      {
-        "type": "text",
-        "id": "c_code_10",
-        "label": "code 10"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_10",
-        "label": "image 10"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_10",
-        "label": "text 10"
-      },
-      {
-        "type": "text",
-        "id": "c_name_11",
-        "label": "Name 11"
-      },
-      {
-        "type": "text",
-        "id": "c_code_11",
-        "label": "code 11"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_11",
-        "label": "image 11"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_11",
-        "label": "text 11"
-      },
-      {
-        "type": "text",
-        "id": "c_name_12",
-        "label": "Name 12"
-      },
-      {
-        "type": "text",
-        "id": "c_code_12",
-        "label": "code 12"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_12",
-        "label": "image 12"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_12",
-        "label": "text 12"
-      },
-      {
-        "type": "text",
-        "id": "c_name_13",
-        "label": "Name 13"
-      },
-      {
-        "type": "text",
-        "id": "c_code_13",
-        "label": "code 13"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_13",
-        "label": "image 13"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_13",
-        "label": "text 13"
-      },
-      {
-        "type": "text",
-        "id": "c_name_14",
-        "label": "Name 14"
-      },
-      {
-        "type": "text",
-        "id": "c_code_14",
-        "label": "code 14"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_14",
-        "label": "image 14"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_14",
-        "label": "text 14"
-      },
-      {
-        "type": "text",
-        "id": "c_name_15",
-        "label": "Name 15"
-      },
-      {
-        "type": "text",
-        "id": "c_code_15",
-        "label": "code 15"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_15",
-        "label": "image 15"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_15",
-        "label": "text 15"
-      },
-      {
-        "type": "text",
-        "id": "c_name_16",
-        "label": "Name 16"
-      },
-      {
-        "type": "text",
-        "id": "c_code_16",
-        "label": "code 16"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_16",
-        "label": "image 16"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_16",
-        "label": "text 16"
-      },
-      {
-        "type": "text",
-        "id": "c_name_17",
-        "label": "Name 17"
-      },
-      {
-        "type": "text",
-        "id": "c_code_17",
-        "label": "code 17"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_17",
-        "label": "image 17"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_17",
-        "label": "text 17"
-      },
-      {
-        "type": "text",
-        "id": "c_name_18",
-        "label": "Name 18"
-      },
-      {
-        "type": "text",
-        "id": "c_code_18",
-        "label": "code 18"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_18",
-        "label": "image 18"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_18",
-        "label": "text 18"
-      },
-      {
-        "type": "text",
-        "id": "c_name_19",
-        "label": "Name 19"
-      },
-      {
-        "type": "text",
-        "id": "c_code_19",
-        "label": "code 19"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_19",
-        "label": "image 19"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_19",
-        "label": "text 19"
-      },
-      {
-        "type": "text",
-        "id": "c_name_20",
-        "label": "Name 20"
-      },
-      {
-        "type": "text",
-        "id": "c_code_20",
-        "label": "code 20"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_20",
-        "label": "image 20"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_20",
-        "label": "text 20"
-      },
-      {
-        "type": "text",
-        "id": "c_name_21",
-        "label": "Name 21"
-      },
-      {
-        "type": "text",
-        "id": "c_code_21",
-        "label": "code 21"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_21",
-        "label": "image 21"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_21",
-        "label": "text 21"
-      },
-      {
-        "type": "text",
-        "id": "c_name_22",
-        "label": "Name 22"
-      },
-      {
-        "type": "text",
-        "id": "c_code_22",
-        "label": "code 22"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_22",
-        "label": "image 22"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_22",
-        "label": "text 22"
-      },
-      {
-        "type": "text",
-        "id": "c_name_23",
-        "label": "Name 23"
-      },
-      {
-        "type": "text",
-        "id": "c_code_23",
-        "label": "code 23"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_23",
-        "label": "image 23"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_23",
-        "label": "text 23"
-      },
-      {
-        "type": "text",
-        "id": "c_name_24",
-        "label": "Name 24"
-      },
-      {
-        "type": "text",
-        "id": "c_code_24",
-        "label": "code 24"
-      },
-      {
-        "type": "image_picker",
-        "id": "c_image_24",
-        "label": "image 24"
-      },
-      {
-        "type": "richtext",
-        "id": "c_txt_24",
-        "label": "text 24"
-      }
-    ]
-  },
-  {
-    "name": "Product fabric Grade H",
-    "settings": [
-      {
-        "type": "text",
-        "id": "h_name_1",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "h_code_1",
-        "label": "code 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "h_image_1",
-        "label": "image 1"
-      },
-      {
-        "type": "richtext",
-        "id": "h_txt_1",
-        "label": "text 1"
-      },
-      {
-        "type": "text",
-        "id": "h_name_2",
-        "label": "Name 2"
-      },
-      {
-        "type": "text",
-        "id": "h_code_2",
-        "label": "code 2"
-      },
-      {
-        "type": "image_picker",
-        "id": "h_image_2",
-        "label": "image 2"
-      },
-      {
-        "type": "richtext",
-        "id": "h_txt_2",
-        "label": "text 2"
-      },
-      {
-        "type": "text",
-        "id": "h_name_3",
-        "label": "Name 3"
-      },
-      {
-        "type": "text",
-        "id": "h_code_3",
-        "label": "code 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "h_image_3",
-        "label": "image 3"
-      },
-      {
-        "type": "richtext",
-        "id": "h_txt_3",
-        "label": "text 3"
-      },
-      {
-        "type": "text",
-        "id": "h_name_4",
-        "label": "Name 4"
-      },
-      {
-        "type": "text",
-        "id": "h_code_4",
-        "label": "code 4"
-      },
-      {
-        "type": "image_picker",
-        "id": "h_image_4",
-        "label": "image 4"
-      },
-      {
-        "type": "richtext",
-        "id": "h_txt_4",
-        "label": "text 4"
-      },
-      {
-        "type": "text",
-        "id": "h_name_5",
-        "label": "Name 5"
-      },
-      {
-        "type": "text",
-        "id": "h_code_5",
-        "label": "code 5"
-      },
-      {
-        "type": "image_picker",
-        "id": "h_image_5",
-        "label": "image 5"
-      },
-      {
-        "type": "richtext",
-        "id": "h_txt_5",
-        "label": "text 5"
-      }
-    ]
-  },
-  {
-    "name": "Product fabric Grade custom",
-    "settings": [
-      {
-        "type": "text",
-        "id": "ct_name_1",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_1",
-        "label": "code 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_1",
-        "label": "image 1"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_1",
-        "label": "text 1"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_2",
-        "label": "Name 2"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_2",
-        "label": "code 2"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_2",
-        "label": "image 2"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_2",
-        "label": "text 2"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_3",
-        "label": "Name 3"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_3",
-        "label": "code 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_3",
-        "label": "image 3"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_3",
-        "label": "text 3"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_4",
-        "label": "Name 4"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_4",
-        "label": "code 4"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_4",
-        "label": "image 4"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_4",
-        "label": "text 4"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_5",
-        "label": "Name 5"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_5",
-        "label": "code 5"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_5",
-        "label": "image 5"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_5",
-        "label": "text 5"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_6",
-        "label": "Name 6"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_6",
-        "label": "code 6"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_6",
-        "label": "image 6"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_6",
-        "label": "text 6"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_7",
-        "label": "Name 7"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_7",
-        "label": "code 7"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_7",
-        "label": "image 7"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_7",
-        "label": "text 7"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_8",
-        "label": "Name 8"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_8",
-        "label": "code 8"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_8",
-        "label": "image 8"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_8",
-        "label": "text 8"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_9",
-        "label": "Name 9"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_9",
-        "label": "code 9"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_9",
-        "label": "image 9"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_9",
-        "label": "text 9"
-      },
-      {
-        "type": "text",
-        "id": "ct_name_10",
-        "label": "Name 10"
-      },
-      {
-        "type": "text",
-        "id": "ct_code_10",
-        "label": "code 10"
-      },
-      {
-        "type": "image_picker",
-        "id": "ct_image_10",
-        "label": "image 10"
-      },
-      {
-        "type": "richtext",
-        "id": "ct_txt_10",
-        "label": "text 10"
-      }
-    ]
-  },
-  {
-    "name": "Product Table",
-    "settings": [
-      {
-        "type": "text",
-        "id": "tb_name_1",
-        "label": "Name 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_1",
-        "label": "image 1"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_2",
-        "label": "Name 2"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_2",
-        "label": "image 2"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_3",
-        "label": "Name 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_3",
-        "label": "image 3"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_4",
-        "label": "Name 4"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_4",
-        "label": "image 4"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_5",
-        "label": "Name 5"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_5",
-        "label": "image 5"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_6",
-        "label": "Name 6"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_6",
-        "label": "image 6"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_7",
-        "label": "Name 7"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_7",
-        "label": "image 7"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_8",
-        "label": "Name 8"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_8",
-        "label": "image 8"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_9",
-        "label": "Name 9"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_9",
-        "label": "image 9"
-      },
-      {
-        "type": "text",
-        "id": "tb_name_10",
-        "label": "Name 10"
-      },
-      {
-        "type": "image_picker",
-        "id": "tb_code_10",
-        "label": "image 10"
-      }
-    ]
-  },
-  {
-    "name": "Product fabric Table",
-    "settings": [
-      {
-        "type": "text",
-        "id": "tf_name_1",
-        "label": "Name 1"
-      },
-      {
-        "type": "text",
-        "id": "tf_grade_1",
-        "label": "Grade 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "tf_code_1",
-        "label": "image 1"
-      },
-      {
-        "type": "text",
-        "id": "tf_name_2",
-        "label": "Name 2"
-      },
-      {
-        "type": "text",
-        "id": "tf_grade_2",
-        "label": "Grade 2"
-      },
-      {
-        "type": "image_picker",
-        "id": "tf_code_2",
-        "label": "image 2"
-      },
-      {
-        "type": "text",
-        "id": "tf_name_3",
-        "label": "Name 3"
-      },
-      {
-        "type": "text",
-        "id": "tf_grade_3",
-        "label": "Grade 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "tf_code_3",
-        "label": "image 3"
-      },
-      {
-        "type": "text",
-        "id": "tf_name_4",
-        "label": "Name 4"
-      },
-      {
-        "type": "text",
-        "id": "tf_grade_4",
-        "label": "Grade 4"
-      },
-      {
-        "type": "image_picker",
-        "id": "tf_code_4",
-        "label": "image 4"
-      },
-      {
-        "type": "text",
-        "id": "tf_name_5",
-        "label": "Name 5"
-      },
-      {
-        "type": "text",
-        "id": "tf_grade_5",
-        "label": "Grade 5"
-      },
-      {
-        "type": "image_picker",
-        "id": "tf_code_5",
-        "label": "image 5"
-      },
-      {
-        "type": "text",
-        "id": "tf_name_6",
-        "label": "Name 6"
-      },
-      {
-        "type": "text",
-        "id": "tf_grade_6",
-        "label": "Grade 6"
-      },
-      {
-        "type": "image_picker",
-        "id": "tf_code_6",
-        "label": "image 6"
-      },
-      {
-        "type": "text",
-        "id": "tf_name_7",
-        "label": "Name 7"
-      },
-      {
-        "type": "text",
-        "id": "tf_grade_7",
-        "label": "Grade 7"
-      },
-      {
-        "type": "image_picker",
-        "id": "tf_code_7",
-        "label": "image 7"
-      },
-      {
-        "type": "text",
-        "id": "tf_name_8",
-        "label": "Name 8"
-      },
-      {
-        "type": "text",
-        "id": "tf_grade_8",
-        "label": "Grade 8"
-      },
-      {
-        "type": "image_picker",
-        "id": "tf_code_8",
-        "label": "image 8"
-      }
-    ]
-  },
-  {
-    "name": "Favicon",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "favicon",
-        "label": "Image",
-        "info": "32 x 32px .png recommended"
-      }
-    ]
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 49,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "related-products": {
+          "type": "related-products",
+          "settings": {
+            "show_section": true,
+            "title": "Related Products",
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 49,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "related-products": {
+          "type": "related-products",
+          "settings": {
+            "show_section": true,
+            "title": "Related Products",
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Vogue": {
+      "heading_color": "#454545",
+      "text_color": "#454545",
+      "text_light_color": "#9d9d9d",
+      "link_color": "#a17c5e",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#c2a284",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#454545",
+      "header_light_color": "#9d9d9d",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#454545",
+      "footer_text_color": "#9d9d9d",
+      "newsletter_popup_background": "#454545",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#f1e4d8",
+      "secondary_elements_text_color": "#373737",
+      "navigation_background": "#454545",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 49,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "related-products": {
+          "type": "related-products",
+          "settings": {
+            "show_section": true,
+            "title": "Related Products",
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    }
   }
-]
+}
